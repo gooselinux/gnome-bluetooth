@@ -1,0 +1,46 @@
+From 234cad9fabd0d6f4955daf653d06fedda9c5d610 Mon Sep 17 00:00:00 2001
+From: Bastien Nocera <hadess@hadess.net>
+Date: Tue, 10 Aug 2010 15:05:26 +0100
+Subject: [PATCH 2/3] Make sure the icon is shown/hidden when killswitch changes
+
+When the killswitch status changes, we need to make sure
+that the status icon's visibility is updated according
+to whether killswitches are available.
+
+https://bugzilla.redhat.com/show_bug.cgi?id=609291
+---
+ applet/main.c |    4 ++++
+ 1 files changed, 4 insertions(+), 0 deletions(-)
+
+diff --git a/applet/main.c b/applet/main.c
+index c8b66a4..e28dbf0 100644
+--- a/applet/main.c
++++ b/applet/main.c
+@@ -75,6 +75,7 @@ void wizard_callback(GObject *widget, gpointer user_data);
+ void sendto_callback(GObject *widget, gpointer user_data);
+ 
+ static void action_set_bold (GtkUIManager *manager, GtkAction *action, const char *path);
++static void update_icon_visibility (void);
+ 
+ void quit_callback(GObject *widget, gpointer user_data)
+ {
+@@ -348,6 +349,7 @@ killswitch_state_changed (BluetoothKillswitch *killswitch, KillswitchState state
+ 	if (state == KILLSWITCH_STATE_NO_ADAPTER) {
+ 		object = gtk_builder_get_object (xml, "bluetooth-applet-popup");
+ 		gtk_menu_popdown (GTK_MENU (object));
++		update_icon_visibility ();
+ 		return;
+ 	}
+ 
+@@ -382,6 +384,8 @@ killswitch_state_changed (BluetoothKillswitch *killswitch, KillswitchState state
+ 
+ 	object = gtk_builder_get_object (xml, "bluetooth-applet-ui-manager");
+ 	gtk_ui_manager_ensure_update (GTK_UI_MANAGER (object));
++
++	update_icon_visibility ();
+ }
+ 
+ static GtkWidget *create_popupmenu(void)
+-- 
+1.7.1
+

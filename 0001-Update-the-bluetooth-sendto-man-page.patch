@@ -1,0 +1,43 @@
+From 49522134943b0e3247294c8bca5a6bd9db98d021 Mon Sep 17 00:00:00 2001
+From: Baptiste Mille-Mathias <baptiste.millemathias@gmail.com>
+Date: Wed, 17 Mar 2010 22:24:48 +0100
+Subject: [PATCH] Update the bluetooth-sendto man page
+
+https://bugzilla.gnome.org/show_bug.cgi?id=613197
+---
+ sendto/bluetooth-sendto.1 |   13 +++++++++----
+ 1 files changed, 9 insertions(+), 4 deletions(-)
+
+diff --git a/sendto/bluetooth-sendto.1 b/sendto/bluetooth-sendto.1
+index 86bbb8c..9c893f6 100644
+--- a/sendto/bluetooth-sendto.1
++++ b/sendto/bluetooth-sendto.1
+@@ -1,16 +1,21 @@
+-.TH BLUETOOTH-SENDTO 1 "Oct 4, 2006" "bluez-gnome" "Linux User's Manual"
++.TH BLUETOOTH-SENDTO 1 "Oct 4, 2006" "gnome-bluetooth" "Linux User's Manual"
+ .SH NAME
+ bluetooth-sendto - GTK application for transfering files over Bluetooth
+ .SH SYNOPSIS
+ .B bluetooth-sendto
++[\--device=XX:XX:XX:XX:XX:XX] [file] [file...]
+ .SH DESCRIPTION
+ .I bluetooth-sendto
+ will display a dialog for transfering files over Bluetooth.
+ .I bluetooth-sendto
+-is part of bluez-gnome, see also http://www.bluez.org
++is part of gnome-bluetooth, see also http://live.gnome.org/GnomeBluetooth
+ .SH OPTIONS
+-.I bluetooth-sendto
+-takes no options
++.TP
++\--device
++Define the device address to send the file to
++.TP
++file
++The file(s) to send to the device
+ .SH AUTHOR
+ Marcel Holtmann <marcel@holtmann.org>
+ .SH LICENSE
+-- 
+1.7.0.1
+

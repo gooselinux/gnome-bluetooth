@@ -1,0 +1,20 @@
+From dd8bf65840712be968d82b720fd892edd2d72552 Mon Sep 17 00:00:00 2001
+From: Bastien Nocera <hadess@hadess.net>
+Date: Fri, 5 Mar 2010 10:37:46 +0000
+Subject: [PATCH] Fix run-time warning
+
+---
+ applet/main.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+--- gnome-bluetooth-2.28.6/applet/main.c.old	2010-08-03 18:15:59.000000000 +0100
++++ gnome-bluetooth-2.28.6/applet/main.c	2010-08-03 18:16:09.000000000 +0100
+@@ -381,7 +381,7 @@ update_menu_items (void)
+ 		return;
+ 
+ 	object = gtk_builder_get_object (xml, "browse-device");
+-	gtk_action_set_sensitive (GTK_ACTION (object),
++	gtk_action_set_sensitive (GTK_ACTION_GROUP (object),
+ 				  program_available ("nautilus"));
+ 
+ }

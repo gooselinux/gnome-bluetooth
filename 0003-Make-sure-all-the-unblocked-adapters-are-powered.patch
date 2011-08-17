@@ -1,0 +1,39 @@
+From 2e93c4689974c7e5a9d85a34167086400b6773d8 Mon Sep 17 00:00:00 2001
+From: Bastien Nocera <hadess@hadess.net>
+Date: Tue, 10 Aug 2010 15:13:01 +0100
+Subject: [PATCH 3/3] Make sure all the unblocked adapters are powered
+
+On startup. Otherwise we might end up with unblocked, yet
+unpowered adapters showing up in the UI.
+---
+ applet/main.c |    8 +++++++-
+ 1 files changed, 7 insertions(+), 1 deletions(-)
+
+diff --git a/applet/main.c b/applet/main.c
+index e28dbf0..3b5da7a 100644
+--- a/applet/main.c
++++ b/applet/main.c
+@@ -1082,13 +1082,19 @@ int main(int argc, char *argv[])
+ 			 G_CALLBACK(device_removed), NULL);
+ 	g_signal_connect (G_OBJECT (devices_model), "row-changed",
+ 			  G_CALLBACK (device_changed), NULL);
+-	/* Set the default */
++
++	/* Set the default adapter */
+ 	device_changed (devices_model, NULL, NULL, NULL);
+ 	if (bluetooth_killswitch_has_killswitches (killswitch) != FALSE) {
+ 		killswitch_state_changed (killswitch,
+ 					  bluetooth_killswitch_get_state (killswitch));
+ 	}
+ 
++	/* Make sure all the unblocked adapters are powered,
++	 * so as to avoid seeing unpowered, but unblocked
++	 * devices */
++	bluetooth_set_adapter_powered ();
++
+ 	gconf = gconf_client_get_default();
+ 
+ 	value = gconf_client_get (gconf, PREF_SHOW_ICON, NULL);
+-- 
+1.7.1
+

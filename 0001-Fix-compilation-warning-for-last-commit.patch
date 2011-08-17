@@ -1,0 +1,70 @@
+From db7ae90e92225f841654104b1076cf0506a2c995 Mon Sep 17 00:00:00 2001
+From: Bastien Nocera <hadess@hadess.net>
+Date: Tue, 3 Aug 2010 16:22:36 +0100
+Subject: [PATCH] Fix compilation warning for last commit
+
+---
+ lib/bluetooth-agent.c |   12 ++++++------
+ 1 files changed, 6 insertions(+), 6 deletions(-)
+
+diff --git a/lib/bluetooth-agent.c b/lib/bluetooth-agent.c
+index 012a172..52298b6 100644
+--- a/lib/bluetooth-agent.c
++++ b/lib/bluetooth-agent.c
+@@ -512,7 +512,7 @@ void bluetooth_agent_set_pincode_func(BluetoothAgent *agent,
+ {
+ 	BluetoothAgentPrivate *priv;
+ 
+-	g_return_val_if_fail (BLUETOOTH_IS_AGENT (agent), FALSE);
++	g_return_if_fail (BLUETOOTH_IS_AGENT (agent));
+ 
+ 	priv = BLUETOOTH_AGENT_GET_PRIVATE(agent);
+ 
+@@ -527,7 +527,7 @@ void bluetooth_agent_set_passkey_func(BluetoothAgent *agent,
+ {
+ 	BluetoothAgentPrivate *priv;
+ 
+-	g_return_val_if_fail (BLUETOOTH_IS_AGENT (agent), FALSE);
++	g_return_if_fail (BLUETOOTH_IS_AGENT (agent));
+ 
+ 	priv = BLUETOOTH_AGENT_GET_PRIVATE(agent);
+ 
+@@ -542,7 +542,7 @@ void bluetooth_agent_set_display_func(BluetoothAgent *agent,
+ {
+ 	BluetoothAgentPrivate *priv;
+ 
+-	g_return_val_if_fail (BLUETOOTH_IS_AGENT (agent), FALSE);
++	g_return_if_fail (BLUETOOTH_IS_AGENT (agent));
+ 
+ 	priv = BLUETOOTH_AGENT_GET_PRIVATE(agent);
+ 
+@@ -557,7 +557,7 @@ void bluetooth_agent_set_confirm_func(BluetoothAgent *agent,
+ {
+ 	BluetoothAgentPrivate *priv;
+ 
+-	g_return_val_if_fail (BLUETOOTH_IS_AGENT (agent), FALSE);
++	g_return_if_fail (BLUETOOTH_IS_AGENT (agent));
+ 
+ 	priv = BLUETOOTH_AGENT_GET_PRIVATE(agent);
+ 
+@@ -572,7 +572,7 @@ void bluetooth_agent_set_authorize_func(BluetoothAgent *agent,
+ {
+ 	BluetoothAgentPrivate *priv;
+ 
+-	g_return_val_if_fail (BLUETOOTH_IS_AGENT (agent), FALSE);
++	g_return_if_fail (BLUETOOTH_IS_AGENT (agent));
+ 
+ 	priv = BLUETOOTH_AGENT_GET_PRIVATE(agent);
+ 
+@@ -587,7 +587,7 @@ void bluetooth_agent_set_cancel_func(BluetoothAgent *agent,
+ {
+ 	BluetoothAgentPrivate *priv;
+ 
+-	g_return_val_if_fail (BLUETOOTH_IS_AGENT (agent), FALSE);
++	g_return_if_fail (BLUETOOTH_IS_AGENT (agent));
+ 
+ 	priv = BLUETOOTH_AGENT_GET_PRIVATE(agent);
+ 
+-- 
+1.7.0.1
+

@@ -1,0 +1,29 @@
+From 608a3097fd46ff48018dee78623fed435491eeec Mon Sep 17 00:00:00 2001
+From: Bastien Nocera <hadess@hadess.net>
+Date: Tue, 10 Aug 2010 15:04:44 +0100
+Subject: [PATCH 1/3] Work-around GTK+ bug not showing status icon
+
+In some bizarre cases, GTK+ doesn't seem to actually show
+the status icon when created...
+---
+ applet/notify.c |    4 ++++
+ 1 files changed, 4 insertions(+), 0 deletions(-)
+
+diff --git a/applet/notify.c b/applet/notify.c
+index e1f3ebc..a869b28 100644
+--- a/applet/notify.c
++++ b/applet/notify.c
+@@ -113,6 +113,10 @@ GtkStatusIcon *init_notification(void)
+ 	statusicon = gtk_status_icon_new_from_icon_name(icon_name);
+ 	gtk_status_icon_set_tooltip_markup(statusicon, tooltip);
+ 
++	/* XXX: Make sure the status icon is actually shown */
++	gtk_status_icon_set_visible(statusicon, FALSE);
++	gtk_status_icon_set_visible(statusicon, TRUE);
++
+ 	return statusicon;
+ }
+ 
+-- 
+1.7.1
+

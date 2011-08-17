@@ -1,0 +1,2410 @@
+diff -urN a/po/as.po b/po/as.po
+--- a/po/as.po	2010-05-06 16:51:17.364029600 +0530
++++ b/po/as.po	2010-05-06 16:51:38.848284672 +0530
+@@ -2,152 +2,151 @@
+ # Copyright (C) 2009 gnome-bluetooth's COPYRIGHT HOLDER
+ # This file is distributed under the same license as the gnome-bluetooth package.
+ #
+-# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
++# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009, 2010.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-bluetooth master\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+-"cgi?product=gnome-bluetooth&component=general\n"
+-"POT-Creation-Date: 2009-07-30 19:54+0000\n"
+-"PO-Revision-Date: 2009-09-21 09:46+0530\n"
+-"Last-Translator: \n"
+-"Language-Team: Assamese <>\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 13:01+0530\n"
++"PO-Revision-Date: 2010-04-15 21:02+0530\n"
++"Last-Translator: Amitakhya Phukan <aphukan@fedoraproject.org>\n"
++"Language-Team: American English <fedora-trans-as@redhat.com>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "Plural-Forms: nplurals=2; plural=n != 1;\n"
+ "X-Generator: Lokalize 0.2\n"
+ 
+-#: ../lib/bluetooth-client.c:109
++#: ../lib/bluetooth-client.c:115
+ msgid "All types"
+ msgstr "সৰ্ব প্ৰকাৰ"
+ 
+-#: ../lib/bluetooth-client.c:111
++#: ../lib/bluetooth-client.c:117
+ msgid "Phone"
+ msgstr "ফোন"
+ 
+-#: ../lib/bluetooth-client.c:113
++#: ../lib/bluetooth-client.c:119
+ msgid "Modem"
+ msgstr "মোডেম"
+ 
+-#: ../lib/bluetooth-client.c:115
++#: ../lib/bluetooth-client.c:121
+ msgid "Computer"
+ msgstr "কম্পিউটাৰ"
+ 
+-#: ../lib/bluetooth-client.c:117
++#: ../lib/bluetooth-client.c:123
+ msgid "Network"
+ msgstr "নে'টৱৰ্ক"
+ 
+ #. translators: a hands-free headset, a combination of a single speaker with a microphone
+-#: ../lib/bluetooth-client.c:120
++#: ../lib/bluetooth-client.c:126
+ msgid "Headset"
+ msgstr "হেড-ছেট"
+ 
+-#: ../lib/bluetooth-client.c:122
++#: ../lib/bluetooth-client.c:128
+ msgid "Headphones"
+ msgstr "হেড-ফোন"
+ 
+-#: ../lib/bluetooth-client.c:124
++#: ../lib/bluetooth-client.c:130
+ msgid "Audio device"
+ msgstr "অডিঅ' যন্ত্ৰ"
+ 
+-#: ../lib/bluetooth-client.c:126
++#: ../lib/bluetooth-client.c:132
+ msgid "Keyboard"
+ msgstr "চাবিৰ ফলক"
+ 
+-#: ../lib/bluetooth-client.c:128
++#: ../lib/bluetooth-client.c:134
+ msgid "Mouse"
+ msgstr "মাউছ"
+ 
+-#: ../lib/bluetooth-client.c:130
++#: ../lib/bluetooth-client.c:136
+ msgid "Camera"
+ msgstr "কেমৰা"
+ 
+-#: ../lib/bluetooth-client.c:132
++#: ../lib/bluetooth-client.c:138
+ msgid "Printer"
+ msgstr "মূদ্ৰক"
+ 
+-#: ../lib/bluetooth-client.c:134
++#: ../lib/bluetooth-client.c:140
+ msgid "Joypad"
+ msgstr "জয়-পেড"
+ 
+-#: ../lib/bluetooth-client.c:136
++#: ../lib/bluetooth-client.c:142
+ msgid "Tablet"
+ msgstr "টেবলেট"
+ 
+-#: ../lib/bluetooth-client.c:138 ../lib/bluetooth-chooser.c:105
+-#: ../lib/bluetooth-chooser.c:139
++#: ../lib/bluetooth-client.c:144 ../lib/bluetooth-chooser.c:106
++#: ../lib/bluetooth-chooser.c:140
+ msgid "Unknown"
+ msgstr "অজ্ঞাত"
+ 
+-#: ../lib/bluetooth-chooser-button.c:65 ../lib/bluetooth-chooser-button.c:360
++#: ../lib/bluetooth-chooser-button.c:65 ../lib/bluetooth-chooser-button.c:358
+ msgid "Click to select device..."
+ msgstr "যন্ত্ৰ নিৰ্বাচন কৰাৰ বাবে ক্লিক কৰক..."
+ 
+-#: ../lib/bluetooth-chooser.c:95
++#: ../lib/bluetooth-chooser.c:96
+ msgid "All categories"
+ msgstr "সৰ্বধৰনৰ শ্ৰেণী"
+ 
+-#: ../lib/bluetooth-chooser.c:97
++#: ../lib/bluetooth-chooser.c:98
+ msgid "Paired"
+ msgstr "জুটি"
+ 
+-#: ../lib/bluetooth-chooser.c:99
++#: ../lib/bluetooth-chooser.c:100
+ msgid "Trusted"
+ msgstr "বিশ্বস্ত"
+ 
+-#: ../lib/bluetooth-chooser.c:101
++#: ../lib/bluetooth-chooser.c:102
+ msgid "Not paired or trusted"
+ msgstr "জুটি বাঁধা অথবা বিশ্বস্ত নয়"
+ 
+-#: ../lib/bluetooth-chooser.c:103
++#: ../lib/bluetooth-chooser.c:104
+ msgid "Paired or trusted"
+ msgstr "জুটি বদ্ধ অথবা বিশ্বস্ত"
+ 
+-#: ../lib/bluetooth-chooser.c:180
++#: ../lib/bluetooth-chooser.c:181
+ msgid "No adapters available"
+ msgstr "কোনো এডাপ্টাৰ উপলব্ধ নাই"
+ 
+-#: ../lib/bluetooth-chooser.c:184 ../lib/bluetooth-chooser.c:813
++#: ../lib/bluetooth-chooser.c:185 ../lib/bluetooth-chooser.c:838
+ msgid "Searching for devices..."
+ msgstr "যন্ত্ৰ অনুসন্ধান কৰা হৈছে..."
+ 
+-#: ../lib/bluetooth-chooser.c:683
++#: ../lib/bluetooth-chooser.c:707
+ msgid "Device"
+ msgstr "যন্ত্ৰ"
+ 
+-#: ../lib/bluetooth-chooser.c:720
++#: ../lib/bluetooth-chooser.c:744
+ msgid "Type"
+ msgstr "ধৰন"
+ 
+ #. The filters
+-#: ../lib/bluetooth-chooser.c:836
++#: ../lib/bluetooth-chooser.c:861
+ msgid "Show Only Bluetooth Devices With..."
+ msgstr "অকল চিহ্নিত মান বিশিষ্ট ব্লু-টুথ যন্ত্ৰ প্ৰদৰ্শন কৰা হ'ব..."
+ 
+ #. The device category filter
+-#: ../lib/bluetooth-chooser.c:856
++#: ../lib/bluetooth-chooser.c:881
+ msgid "Device _category:"
+ msgstr "যন্ত্ৰৰ শ্ৰেণী: (_c)"
+ 
+-#: ../lib/bluetooth-chooser.c:871
++#: ../lib/bluetooth-chooser.c:896
+ msgid "Select the device category to filter above list"
+ msgstr "উপৰোক্ত তালিকা ফিল্টাৰ কৰাৰ বাবে যন্ত্ৰৰ শ্ৰেণী নিৰ্বাচন কৰক"
+ 
+ #. The device type filter
+-#: ../lib/bluetooth-chooser.c:885
++#: ../lib/bluetooth-chooser.c:910
+ msgid "Device _type:"
+ msgstr "যন্ত্ৰৰ ধৰন: (_t)"
+ 
+-#: ../lib/bluetooth-chooser.c:906
++#: ../lib/bluetooth-chooser.c:931
+ msgid "Select the device type to filter above list"
+ msgstr "উপৰোক্ত তালিকা ফিল্টাৰ কৰাৰ বাবে যন্ত্ৰৰ ধৰন নিৰ্বাচন কৰক"
+ 
+-#: ../lib/bluetooth-chooser.c:912
++#: ../lib/bluetooth-chooser.c:937
+ msgid "Input devices (mice, keyboards, ...)"
+ msgstr "নিবেশ যন্ত্ৰ (মাউছ, চাবিৰ ফলক, ...)"
+ 
+-#: ../lib/bluetooth-chooser.c:916
++#: ../lib/bluetooth-chooser.c:941
+ msgid "Headphones, headsets and other audio devices"
+ msgstr "হেড-ফোন, হেড-ছেট আৰু অন্যান্য অডিঅ' যন্ত্ৰ"
+ 
+@@ -159,8 +158,8 @@
+ #. * This is in a test plugin, please make sure you add the "(test)" part,
+ #. * or leave untranslated
+ #: ../lib/plugins/test.c:53
+-msgid "Access the Internet using your mobile phone (test)"
+-msgstr "আপোনাৰ মোবাইল ফোন সহযোগে ইন্টাৰনেট ব্যৱহাৰ কৰক (পৰীক্ষামূলক)"
++msgid "Access the Internet using your cell phone (test)"
++msgstr "আপোনাৰ মোবাইল ফোন সহযোগে ইন্টাৰনেট অভিগম কৰক (পৰীক্ষামূলক)"
+ 
+ #: ../applet/main.c:112
+ msgid "Select Device to Browse"
+@@ -174,76 +173,76 @@
+ msgid "Select device to browse"
+ msgstr "চৰণ কৰাৰ উদ্দেশ্যে যন্ত্ৰ নিৰ্বাচন কৰক"
+ 
+-#: ../applet/main.c:278 ../properties/properties-adapter-off.ui.h:1
++#: ../applet/main.c:284 ../properties/properties-adapter-off.ui.h:1
+ msgid "Turn On Bluetooth"
+ msgstr "ব্লু-টুথ আৰম্ভ কৰক"
+ 
+-#: ../applet/main.c:279
++#: ../applet/main.c:285
+ msgid "Bluetooth: Off"
+ msgstr "ব্লু-টুথ: বন্ধ কৰক"
+ 
+-#: ../applet/main.c:282
++#: ../applet/main.c:288
+ msgid "Turn Off Bluetooth"
+ msgstr "ব্লু-টুথ বন্ধ কৰক"
+ 
+-#: ../applet/main.c:283
++#: ../applet/main.c:289
+ msgid "Bluetooth: On"
+ msgstr "ব্লু-টুথ: আৰম্ভ কৰক"
+ 
+-#: ../applet/main.c:288 ../applet/notify.c:148
++#: ../applet/main.c:294 ../applet/notify.c:148
+ msgid "Bluetooth: Disabled"
+ msgstr "ব্লু-টুথ: নিষ্ক্ৰিয়"
+ 
+-#: ../applet/main.c:414
++#: ../applet/main.c:419
+ msgid "Disconnecting..."
+ msgstr "বিচ্ছিন্ন কৰা হৈছে..."
+ 
+-#: ../applet/main.c:417 ../sendto/main.c:212
++#: ../applet/main.c:422 ../sendto/main.c:291
+ msgid "Connecting..."
+ msgstr "সংযোত স্থাপন কৰা হৈছে..."
+ 
+-#: ../applet/main.c:420 ../applet/main.c:760
++#: ../applet/main.c:425 ../applet/main.c:766
+ msgid "Connected"
+ msgstr "সংযুক্ত"
+ 
+-#: ../applet/main.c:423 ../applet/main.c:760
++#: ../applet/main.c:428 ../applet/main.c:766
+ msgid "Disconnected"
+ msgstr "বিচ্ছিন্ন"
+ 
+-#: ../applet/main.c:778 ../applet/main.c:832 ../properties/adapter.c:446
++#: ../applet/main.c:784 ../applet/main.c:838 ../properties/adapter.c:442
+ msgid "Disconnect"
+ msgstr "বিচ্ছিন্ন কৰক"
+ 
+-#: ../applet/main.c:778 ../applet/main.c:832
++#: ../applet/main.c:784 ../applet/main.c:838
+ msgid "Connect"
+ msgstr "সংযোগ কৰক"
+ 
+-#: ../applet/main.c:791
++#: ../applet/main.c:797
+ msgid "Send files..."
+ msgstr "নথিপত্ৰ প্ৰৰণ..."
+ 
+-#: ../applet/main.c:801
++#: ../applet/main.c:807
+ msgid "Browse files..."
+ msgstr "নথিপত্ৰ চৰণ কৰক..."
+ 
+-#: ../applet/main.c:812
++#: ../applet/main.c:818
+ msgid "Open Keyboard Preferences..."
+ msgstr "চাবিৰ ফলক সংক্ৰান্ত পছন্দৰ বৈশিষ্ট্য খোলক..."
+ 
+-#: ../applet/main.c:820
++#: ../applet/main.c:826
+ msgid "Open Mouse Preferences..."
+ msgstr "মাউছ সংক্ৰান্ত পছন্দৰ বৈশিষ্ট্য খোলক..."
+ 
+-#: ../applet/main.c:946
++#: ../applet/main.c:952
+ msgid "Debug"
+ msgstr "ডিবাগ কৰক"
+ 
+ #. Parse command-line options
+-#: ../applet/main.c:966
++#: ../applet/main.c:972
+ msgid "- Bluetooth applet"
+ msgstr "- Bluetooth applet"
+ 
+-#: ../applet/main.c:971
++#: ../applet/main.c:977
+ #, c-format
+ msgid ""
+ "%s\n"
+@@ -253,7 +252,7 @@
+ "আদেশ-শাৰীৰ পৰা ব্যৱহাৰযোগ্য সকলো বিকল্পৰ তালিকা চোৱাৰ বাবে '%s --help' আদেশ "
+ "সঞ্চালন কৰক  ।\n"
+ 
+-#: ../applet/main.c:987
++#: ../applet/main.c:993
+ msgid "Bluetooth Applet"
+ msgstr "Bluetooth এপ্লেট"
+ 
+@@ -268,14 +267,11 @@
+ 
+ #: ../applet/agent.c:257
+ #, c-format
+-#| msgid "Please enter the passkey mentioned on device %s."
+ msgid "Please enter the PIN mentioned on device %s."
+ msgstr "অনুগ্ৰহ কৰি %s যন্ত্ৰত উল্লিখিত PIN লিখক ।"
+ 
+ #: ../applet/agent.c:339
+ #, c-format
+-#| msgid ""
+-#| "Please confirm whether the passkey '%s' matches the one on device %s."
+ msgid "Please confirm whether the PIN '%s' matches the one on device %s."
+ msgstr ""
+ "অনুগ্ৰহ কৰি, '%s' PIN আৰু %s যন্ত্ৰত উপস্থিত PIN দুটা একেই নে নহয় সেইটো পৰীক্ষা কৰক ।"
+@@ -343,12 +339,11 @@
+ msgid "Browse files on device..."
+ msgstr "যন্ত্ৰত নথিপত্ৰ চৰণ কৰক..."
+ 
+-#: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:405
++#: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:401
+ msgid "Devices"
+ msgstr "যন্ত্ৰ"
+ 
+ #: ../applet/popup-menu.ui.h:4
+-#| msgid "Preferences..."
+ msgid "Preferences"
+ msgstr "পছন্দ"
+ 
+@@ -388,70 +383,65 @@
+ msgid "_Show input"
+ msgstr "নিবেশ প্ৰদৰ্শন (_S)"
+ 
+-#: ../properties/main.c:115
++#: ../properties/main.c:132
+ msgid "A Bluetooth manager for the GNOME desktop"
+ msgstr "GNOME ডেস্কট'পত ব্যৱহাৰযোগ্য ব্লু-টুথ পৰিচালন ব্যৱস্থা"
+ 
+-#: ../properties/main.c:118
++#: ../properties/main.c:135
+ msgid "translator-credits"
+ msgstr "অমিতাক্ষ ফুকন (aphukan@fedoraproject.org)"
+ 
+-#: ../properties/main.c:120
++#: ../properties/main.c:137
+ msgid "GNOME Bluetooth home page"
+ msgstr "GNOME Bluetooth-ৰ প্ৰধান পৃষ্ঠা"
+ 
+-#: ../properties/main.c:145
++#: ../properties/main.c:162
+ msgid "Bluetooth Preferences"
+ msgstr "Bluetooth সংক্ৰান্ত পছন্দ"
+ 
+-#: ../properties/main.c:157
++#: ../properties/main.c:177
+ msgid "_Show Bluetooth icon"
+ msgstr "ব্লু-টুথৰ আইকন প্ৰদৰ্শন কৰা হ'ব (_S)"
+ 
+-#: ../properties/main.c:307
++#: ../properties/main.c:246
+ msgid "Output a list of currently known devices"
+ msgstr "বৰ্তমানে জ্ঞাত যন্ত্ৰসমূহৰ তালিকা প্ৰদৰ্শন কৰা হ'ব"
+ 
+-#: ../properties/main.c:344
++#: ../properties/main.c:283
+ msgid "Bluetooth Properties"
+ msgstr "Bluetooth-ৰ বিবিধ বৈশিষ্ট্য"
+ 
+ #: ../properties/adapter.c:179
+ #, c-format
+-#| msgid "Remove '%s' from list of known devices?"
+ msgid "Remove '%s' from the list of devices?"
+ msgstr "যন্ত্ৰৰ তালিকাৰ পৰা '%s' আঁতৰুৱা হ'ব নেকি ?"
+ 
+ #: ../properties/adapter.c:181
+-#| msgid ""
+-#| "If you delete the device, you have to set it up again before next use."
+ msgid "If you remove the device, you will have to set it up again before next use."
+ msgstr "যন্ত্ৰ আঁতৰুৱা হ'লে, পৰবৰ্তী ব্যৱহাৰৰ পূৰ্বে এইটো পুনৰায় প্ৰস্তুত কৰা হ'ব ।"
+ 
+ #. The discoverable checkbox
+-#: ../properties/adapter.c:352
+-#| msgid "_Discoverable"
++#: ../properties/adapter.c:348
+ msgid "Make computer _discoverable"
+ msgstr "কম্পিউটাৰ উন্মোচনযোগ্য ৰূপে ধাৰ্য কৰা হ'ব (_D)"
+ 
+-#: ../properties/adapter.c:375
++#: ../properties/adapter.c:371
+ msgid "Friendly name"
+ msgstr "সহজ নাম"
+ 
+-#: ../properties/adapter.c:437
+-#| msgid "Set up new device..."
++#: ../properties/adapter.c:433
+ msgid "Set up _new device..."
+ msgstr "নতুন যন্ত্ৰ প্ৰস্তুত কৰক...(_n)"
+ 
+-#: ../properties/adapter.c:460
++#: ../properties/adapter.c:456
+ msgid "_Remove"
+ msgstr "আঁতৰাওক (_R)"
+ 
+-#: ../properties/adapter.c:735
++#: ../properties/adapter.c:731
+ msgid "Bluetooth is disabled"
+ msgstr "ব্লু-টুথ বৰ্তমানে নিষ্ক্ৰিয়"
+ 
+-#: ../properties/adapter.c:771
++#: ../properties/adapter.c:767
+ msgid "No Bluetooth adapters present"
+ msgstr "কোনো ব্লু-টুথ এডাপ্টাৰ উপস্থিত নাই"
+ 
+@@ -495,12 +485,10 @@
+ 
+ #: ../wizard/main.c:246
+ #, c-format
+-#| msgid "Please confirm that the passkey displayed on '%s' matches this one."
+ msgid "Please confirm that the PIN displayed on '%s' matches this one."
+ msgstr "অনুগ্ৰহ কৰি নিশ্চিত কৰক, এই PIN আৰু '%s'-ত প্ৰদৰ্শিত PIN একেই নে নহয় ।"
+ 
+ #: ../wizard/main.c:300
+-#| msgid "Please enter the following passkey:"
+ msgid "Please enter the following PIN:"
+ msgstr "অনুগ্ৰহ কৰি নিম্নলিখিত PIN উল্লেখ কৰক:"
+ 
+@@ -524,13 +512,11 @@
+ 
+ #: ../wizard/main.c:550
+ #, c-format
+-#| msgid "Please enter the following passkey:"
+ msgid "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+ msgstr "অনুগ্ৰহ কৰি '%s'-ত নিম্নলিখিত PIN লিখক আৰু কি-বোৰ্ডৰ পৰা “Enter” টিপক:"
+ 
+ #: ../wizard/main.c:552
+ #, c-format
+-#| msgid "Please enter the following passkey on '%s':"
+ msgid "Please enter the following PIN on '%s':"
+ msgstr "অনুগ্ৰহ কৰি '%s'-ত নিম্নলিখিত PIN লিখক:"
+ 
+@@ -540,14 +526,12 @@
+ #.
+ #: ../wizard/main.c:573
+ #, c-format
+-#| msgid "Please wait while finishing setup on '%s'..."
+ msgid "Please wait while finishing setup on device '%s'..."
+ msgstr "'%s' যন্ত্ৰ প্ৰস্তুতিৰ সমাপ্তি অবধি অনুগ্ৰহ কৰি অপেক্ষা কৰক..."
+ 
+ #: ../wizard/main.c:586
+ #, c-format
+-#| msgid "Successfully configured '%s'"
+-msgid "Successfully setup new device '%s'"
++msgid "Successfully set up new device '%s'"
+ msgstr "সফলতাৰে সৈতে নতুন যন্ত্ৰ '%s' প্ৰস্তুত কৰা হৈছে"
+ 
+ #: ../wizard/wizard.ui.h:1
+@@ -563,12 +547,10 @@
+ msgstr "'1234'"
+ 
+ #: ../wizard/wizard.ui.h:4
+-#| msgid "Bluetooth device"
+ msgid "Bluetooth New Device Setup"
+ msgstr "ব্লু-টুথ নতুন যন্ত্ৰ প্ৰস্তুতি"
+ 
+ #: ../wizard/wizard.ui.h:5
+-#| msgid "Custom passkey code:"
+ msgid "Custom PIN code:"
+ msgstr "স্বনিৰ্ধাৰিত PIN কোড:"
+ 
+@@ -584,62 +566,58 @@
+ msgid "Device search"
+ msgstr "যন্ত্ৰ অনুসন্ধান"
+ 
+-#: ../wizard/wizard.ui.h:9
++#. This is a button to answer: Does the PIN matches the one on the device?
++#: ../wizard/wizard.ui.h:10
+ msgid "Does not match"
+ msgstr "মিল পোৱা নাযায়"
+ 
+-#: ../wizard/wizard.ui.h:10
+-#| msgid "Finishing Device Setup"
++#: ../wizard/wizard.ui.h:11
+ msgid "Finishing New Device Setup"
+ msgstr "নতুন যন্ত্ৰৰ প্ৰস্তুতি সমাপ্ত কৰা হৈছে"
+ 
+-#: ../wizard/wizard.ui.h:11
+-#| msgid "Fixed Passkey"
++#. Translators: this is a PIN with a set value, such as 1111, or 0000
++#: ../wizard/wizard.ui.h:13
+ msgid "Fixed PIN"
+ msgstr "সুনিৰ্দিষ্ট PIN"
+ 
+-#: ../wizard/wizard.ui.h:12
++#: ../wizard/wizard.ui.h:14
+ msgid "Introduction"
+ msgstr "ভূমিকা"
+ 
+-#: ../wizard/wizard.ui.h:13
++#. This is a button to answer: Does the PIN matches the one on the device?
++#: ../wizard/wizard.ui.h:16
+ msgid "Matches"
+ msgstr "মিল"
+ 
+-#: ../wizard/wizard.ui.h:14
+-#| msgid "Passkey Options"
++#: ../wizard/wizard.ui.h:17
+ msgid "PIN Options"
+ msgstr "PIN সংক্ৰান্ত বিকল্প"
+ 
+-#: ../wizard/wizard.ui.h:15
+-#| msgid "Passkey _options..."
++#: ../wizard/wizard.ui.h:18
+ msgid "PIN _options..."
+ msgstr "PIN সংক্ৰান্ত বিকল্প...(_o)"
+ 
+-#: ../wizard/wizard.ui.h:16
++#: ../wizard/wizard.ui.h:19
+ msgid "Select the additional services you want to use with your device:"
+ msgstr "যন্ত্ৰৰ সৈতে ব্যৱহাৰৰ বাবে অতিৰিক্ত সেৱাসমূহ নিৰ্বাচন কৰক:"
+ 
+-#: ../wizard/wizard.ui.h:17
++#: ../wizard/wizard.ui.h:20
+ msgid "Select the device you want to setup"
+ msgstr "প্ৰস্তুত কৰাৰ উদ্দেশ্যে এটা যন্ত্ৰ নিৰ্বাচন কৰক"
+ 
+-#: ../wizard/wizard.ui.h:18
++#: ../wizard/wizard.ui.h:21
+ msgid "Setup Completed"
+ msgstr "প্ৰস্তুত কৰা হৈছে"
+ 
+-#: ../wizard/wizard.ui.h:19
+-#| msgid ""
+-#| "The device wizard will walk you through the process of configuring "
+-#| "Bluetooth enabled devices for use with this computer."
++#: ../wizard/wizard.ui.h:22
+ msgid ""
+ "The Bluetooth new device setup will walk you through the process of "
+ "configuring Bluetooth enabled devices for use with this computer."
+ msgstr ""
+-"ব্লু-টুথৰ নতুন যন্ত্ৰ প্ৰস্তুতি ব্যৱস্থাৰ সাহায্যে কম্পিউটাৰৰ সৈতে ব্যৱহাৰৰ বাবে "
+-"ব্লু-টুথ সক্ৰিয় যন্ত্ৰ সহজে বিন্যাস কৰা যাব ।"
++"ব্লু-টুথৰ নতুন যন্ত্ৰ প্ৰস্তুতি ব্যৱস্থাৰ সাহায্যে কম্পিউটাৰৰ সৈতে ব্যৱহাৰৰ বাবে ব্লু-টুথ "
++"সক্ৰিয় যন্ত্ৰ সহজে বিন্যাস কৰা যাব ।"
+ 
+-#: ../wizard/wizard.ui.h:20
++#: ../wizard/wizard.ui.h:23
+ msgid ""
+ "The device will need to be within 10 meters of your computer, and be &#8220;"
+ "discoverable&#8221; (sometimes called &#8220;visible&#8221;). Check the "
+@@ -649,69 +627,68 @@
+ "discoverable&#x8221; (sকিছু ক্ষেত্ৰে #&x8220;visible&#8221;) ৰূপে নিৰ্ধাৰিত. হোৱা "
+ "আবশ্যক  । কোনো ধৰণৰ সন্দেহ থাকিলে যন্ত্ৰৰ সহায়িকাত উপস্থিত তথ্য পঢ়ক  ।"
+ 
+-#: ../wizard/wizard.ui.h:21
+-#| msgid "Welcome to the Bluetooth device setup wizard"
++#: ../wizard/wizard.ui.h:24
+ msgid "Welcome to the Bluetooth new device setup"
+ msgstr "ব্লু-টুথৰ নতুন যন্ত্ৰ প্ৰস্তুতি ব্যৱস্থাত স্বাগতম"
+ 
+-#: ../wizard/wizard.ui.h:22
+-#| msgid "_Automatic passkey selection"
++#: ../wizard/wizard.ui.h:25
+ msgid "_Automatic PIN selection"
+ msgstr "স্বয়ংক্ৰিয় PIN নিৰ্বাচন (_A)"
+ 
+-#: ../wizard/wizard.ui.h:23
++#: ../wizard/wizard.ui.h:26
+ msgid "_Restart Setup"
+ msgstr "প্ৰস্তুতি পৰ্ব পুনৰাৰম্ভ (_R)"
+ 
+-#: ../sendto/main.c:98
++#: ../sendto/main.c:122
+ #, c-format
+ msgid "%'d second"
+ msgid_plural "%'d seconds"
+ msgstr[0] "%'d ছেকেণ্ড"
+ msgstr[1] "%'d ছেকেণ্ড"
+ 
+-#: ../sendto/main.c:103 ../sendto/main.c:116
++#: ../sendto/main.c:127 ../sendto/main.c:140
+ #, c-format
+ msgid "%'d minute"
+ msgid_plural "%'d minutes"
+ msgstr[0] "%'d মিনিট"
+ msgstr[1] "%'d মিনিট"
+ 
+-#: ../sendto/main.c:114
++#: ../sendto/main.c:138
+ #, c-format
+ msgid "%'d hour"
+ msgid_plural "%'d hours"
+ msgstr[0] "%'d ঘন্টা"
+ msgstr[1] "%'d ঘন্টা"
+ 
+-#: ../sendto/main.c:124
++#: ../sendto/main.c:148
+ #, c-format
+ msgid "approximately %'d hour"
+ msgid_plural "approximately %'d hours"
+ msgstr[0] "আনুমানিক %'d ঘন্টা"
+ msgstr[1] "আনুমানিক %'d ঘন্টা"
+ 
+-#: ../sendto/main.c:150
++#: ../sendto/main.c:229
+ msgid "File Transfer"
+ msgstr "নথিপত্ৰ বিনিময়"
+ 
+-#: ../sendto/main.c:168
++#. translators: This is the heading for the progress dialogue
++#: ../sendto/main.c:250
+ msgid "Sending files via Bluetooth"
+ msgstr "ব্লু-টুথৰ মাধ্যমে নথিপত্ৰ পঠিওৱা হৈছে"
+ 
+-#: ../sendto/main.c:180
++#: ../sendto/main.c:262
+ msgid "From:"
+ msgstr "উৎসস্থল:"
+ 
+-#: ../sendto/main.c:196
++#: ../sendto/main.c:275
+ msgid "To:"
+ msgstr "গন্তব্যস্থল:"
+ 
+-#: ../sendto/main.c:242
+-msgid "An unknown error occured"
++#: ../sendto/main.c:320 ../sendto/main.c:336
++msgid "An unknown error occurred"
+ msgstr "অজ্ঞাত ত্ৰুটি দেখা দিছে"
+ 
+-#: ../sendto/main.c:252
++#: ../sendto/main.c:329
+ msgid ""
+ "Make sure that remote device is switched on and that it accepts Bluetooth "
+ "connections"
+@@ -719,43 +696,43 @@
+ "দূৰবৰ্তী যন্ত্ৰটি সক্ৰিয় নহয় নে নহয় আৰু যন্ত্ৰটি দ্বাৰা ব্লু-টুথ সংযোগ গ্ৰহণ কৰা হৈছে নে "
+ "নহয় সেইটো পৰীক্ষা কৰক"
+ 
+-#: ../sendto/main.c:336
++#: ../sendto/main.c:427
+ #, c-format
+ msgid "Sending %s"
+ msgstr "%s পঠিওৱা হৈছে"
+ 
+-#: ../sendto/main.c:343 ../sendto/main.c:405
++#: ../sendto/main.c:434 ../sendto/main.c:500
+ #, c-format
+ msgid "Sending file %d of %d"
+ msgstr "%d নথিপত্ৰ পঠিওৱা হৈছে, সৰ্বমোট %d"
+ 
+-#: ../sendto/main.c:401
++#: ../sendto/main.c:496
+ #, c-format
+ msgid "%d KB/s"
+ msgstr "%d কিলোবাইট/ছেকেণ্ড"
+ 
+-#: ../sendto/main.c:403
++#: ../sendto/main.c:498
+ #, c-format
+ msgid "%d B/s"
+ msgstr "%d বাইট/ছেকেণ্ড"
+ 
+-#: ../sendto/main.c:497
++#: ../sendto/main.c:602
+ msgid "Select Device to Send To"
+ msgstr "উদ্দিষ্ট যন্ত্ৰ চিহ্নিত কৰক"
+ 
+-#: ../sendto/main.c:501
++#: ../sendto/main.c:606
+ msgid "Send _To"
+ msgstr "চিহ্নিত স্থানলৈ পঠিওৱা হ'ব (_T)"
+ 
+-#: ../sendto/main.c:542
++#: ../sendto/main.c:647
+ msgid "Choose files to send"
+ msgstr "পঠিওৱাৰ উদ্দেশ্যে নথিপত্ৰ নিৰ্বাচন কৰক"
+ 
+-#: ../sendto/main.c:571
++#: ../sendto/main.c:676
+ msgid "Remote device to use"
+ msgstr "ব্যৱহাৰযোগ্য দূৰবৰ্তী যন্ত্ৰ"
+ 
+-#: ../sendto/main.c:573
++#: ../sendto/main.c:678
+ msgid "Remote device's name"
+ msgstr "দূৰবৰ্তী যন্ত্ৰৰ নাম"
+ 
+diff -urN a/po/ta.po b/po/ta.po
+--- a/po/ta.po	2010-05-06 16:51:17.360030485 +0530
++++ b/po/ta.po	2010-05-06 16:51:38.460346028 +0530
+@@ -4,15 +4,15 @@
+ # This file is distributed under the same license as the gnome-bluetooth package.
+ #
+ # I. Felix <ifelix@redhat.com>, 2009.
+-# Dr.T.Vasudevan <agnihot3@gmail.com>, 2009.
++# Dr.T.Vasudevan <agnihot3@gmail.com>, 2009, 2010.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-bluetooth.master\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2009-07-29 08:19+0530\n"
+-"PO-Revision-Date: 2009-07-29 08:20+0530\n"
+-"Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
+-"Language-Team: Tamil <Ubuntu-l10n-tam@lists.ubuntu.com>\n"
++"POT-Creation-Date: 2010-03-29 13:01+0530\n"
++"PO-Revision-Date: 2010-04-15 13:50+0530\n"
++"Last-Translator: \n"
++"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+@@ -24,138 +24,138 @@
+ "\n"
+ "\n"
+ "\n"
+-"X-Generator: Lokalize 0.3\n"
++"X-Generator: Lokalize 1.0\n"
+ 
+-#: ../lib/bluetooth-client.c:109
++#: ../lib/bluetooth-client.c:115
+ msgid "All types"
+ msgstr "அனைத்து வகைகள்"
+ 
+-#: ../lib/bluetooth-client.c:111
++#: ../lib/bluetooth-client.c:117
+ msgid "Phone"
+ msgstr "தொலைபேசி"
+ 
+-#: ../lib/bluetooth-client.c:113
++#: ../lib/bluetooth-client.c:119
+ msgid "Modem"
+ msgstr "மோடம்"
+ 
+-#: ../lib/bluetooth-client.c:115
++#: ../lib/bluetooth-client.c:121
+ msgid "Computer"
+ msgstr "கணினி"
+ 
+-#: ../lib/bluetooth-client.c:117
++#: ../lib/bluetooth-client.c:123
+ msgid "Network"
+ msgstr "பிணையம்"
+ 
+ #. translators: a hands-free headset, a combination of a single speaker with a microphone
+-#: ../lib/bluetooth-client.c:120
++#: ../lib/bluetooth-client.c:126
+ msgid "Headset"
+ msgstr "ஹெட்செட்"
+ 
+-#: ../lib/bluetooth-client.c:122
++#: ../lib/bluetooth-client.c:128
+ msgid "Headphones"
+ msgstr "ஹெட்போன்கள்"
+ 
+-#: ../lib/bluetooth-client.c:124
++#: ../lib/bluetooth-client.c:130
+ msgid "Audio device"
+ msgstr "ஆடியோச் சாதனம்"
+ 
+-#: ../lib/bluetooth-client.c:126
++#: ../lib/bluetooth-client.c:132
+ msgid "Keyboard"
+ msgstr "விசைப்பலகை"
+ 
+-#: ../lib/bluetooth-client.c:128
++#: ../lib/bluetooth-client.c:134
+ msgid "Mouse"
+ msgstr "சொடுக்கி"
+ 
+-#: ../lib/bluetooth-client.c:130
++#: ../lib/bluetooth-client.c:136
+ msgid "Camera"
+ msgstr "கேமரா"
+ 
+-#: ../lib/bluetooth-client.c:132
++#: ../lib/bluetooth-client.c:138
+ msgid "Printer"
+ msgstr "அச்சுப்பொறி"
+ 
+-#: ../lib/bluetooth-client.c:134
++#: ../lib/bluetooth-client.c:140
+ msgid "Joypad"
+ msgstr "ஜாய்பேடு"
+ 
+-#: ../lib/bluetooth-client.c:136
++#: ../lib/bluetooth-client.c:142
+ msgid "Tablet"
+ msgstr "டேப்லெட்"
+ 
+-#: ../lib/bluetooth-client.c:138 ../lib/bluetooth-chooser.c:105
+-#: ../lib/bluetooth-chooser.c:139
++#: ../lib/bluetooth-client.c:144 ../lib/bluetooth-chooser.c:106
++#: ../lib/bluetooth-chooser.c:140
+ msgid "Unknown"
+ msgstr "தெரியாத"
+ 
+-#: ../lib/bluetooth-chooser-button.c:65 ../lib/bluetooth-chooser-button.c:360
++#: ../lib/bluetooth-chooser-button.c:65 ../lib/bluetooth-chooser-button.c:358
+ msgid "Click to select device..."
+ msgstr "சாதனத்தை தேர்ந்தெடுக்க கிளிக் செய்யவும்..."
+ 
+-#: ../lib/bluetooth-chooser.c:95
++#: ../lib/bluetooth-chooser.c:96
+ msgid "All categories"
+ msgstr "அனைத்து வகைகள்"
+ 
+-#: ../lib/bluetooth-chooser.c:97
++#: ../lib/bluetooth-chooser.c:98
+ msgid "Paired"
+ msgstr "பிணைக்கப்பட்டது"
+ 
+-#: ../lib/bluetooth-chooser.c:99
++#: ../lib/bluetooth-chooser.c:100
+ msgid "Trusted"
+ msgstr "நம்பப்பட்டது"
+ 
+-#: ../lib/bluetooth-chooser.c:101
++#: ../lib/bluetooth-chooser.c:102
+ msgid "Not paired or trusted"
+ msgstr "பிணையக்கப்படவில்லை அல்லது நம்பப்பட்டது"
+ 
+-#: ../lib/bluetooth-chooser.c:103
++#: ../lib/bluetooth-chooser.c:104
+ msgid "Paired or trusted"
+ msgstr "பிணைக்கப்பட்டது அல்லது நம்பப்பட்டது"
+ 
+-#: ../lib/bluetooth-chooser.c:180
++#: ../lib/bluetooth-chooser.c:181
+ msgid "No adapters available"
+ msgstr "தகவிகள் கிடைக்கப் பெறவில்லை"
+ 
+-#: ../lib/bluetooth-chooser.c:184 ../lib/bluetooth-chooser.c:813
++#: ../lib/bluetooth-chooser.c:185 ../lib/bluetooth-chooser.c:838
+ msgid "Searching for devices..."
+ msgstr "சாதனங்களுக்காக தேடுகிறது..."
+ 
+-#: ../lib/bluetooth-chooser.c:683
++#: ../lib/bluetooth-chooser.c:707
+ msgid "Device"
+ msgstr "சாதனம்"
+ 
+-#: ../lib/bluetooth-chooser.c:720
++#: ../lib/bluetooth-chooser.c:744
+ msgid "Type"
+ msgstr "வகை"
+ 
+ #. The filters
+-#: ../lib/bluetooth-chooser.c:836
++#: ../lib/bluetooth-chooser.c:861
+ msgid "Show Only Bluetooth Devices With..."
+ msgstr "இதனுடன் ப்ளூடூத் சாதனங்களை மட்டும் காட்டவும்..."
+ 
+ #. The device category filter
+-#: ../lib/bluetooth-chooser.c:856
++#: ../lib/bluetooth-chooser.c:881
+ msgid "Device _category:"
+ msgstr "சாதன வகை (_c):"
+ 
+-#: ../lib/bluetooth-chooser.c:871
++#: ../lib/bluetooth-chooser.c:896
+ msgid "Select the device category to filter above list"
+ msgstr "மேலுள்ள பட்டியலை வடிக்க சாதன வகையை தேர்ந்தெடுக்கவும்"
+ 
+ #. The device type filter
+-#: ../lib/bluetooth-chooser.c:885
++#: ../lib/bluetooth-chooser.c:910
+ msgid "Device _type:"
+ msgstr "சாதன வகை (_t):"
+ 
+-#: ../lib/bluetooth-chooser.c:906
++#: ../lib/bluetooth-chooser.c:931
+ msgid "Select the device type to filter above list"
+ msgstr "மேலுள்ள பட்டியலை வடிக்க சாதன வகையை தேர்ந்தெடுக்கவும்"
+ 
+-#: ../lib/bluetooth-chooser.c:912
++#: ../lib/bluetooth-chooser.c:937
+ msgid "Input devices (mice, keyboards, ...)"
+ msgstr "உள்ளீடு சாதனங்கள் (சுட்டி, விசைப்பலகைகள், ...)"
+ 
+-#: ../lib/bluetooth-chooser.c:916
++#: ../lib/bluetooth-chooser.c:941
+ msgid "Headphones, headsets and other audio devices"
+ msgstr "ஹெட்போன்கள், ஹெட்செட் மற்றும் மற்ற ஆடியோ சாதனங்கள்"
+ 
+@@ -182,76 +182,76 @@
+ msgid "Select device to browse"
+ msgstr "உலாவுவதற்கு சாதனத்தை தேர்ந்தெடுக்கவும்"
+ 
+-#: ../applet/main.c:280
+-msgid "Bluetooth: Unknown"
+-msgstr "ப்ளூடூத்: தெரியாத"
+-
+-#: ../applet/main.c:282 ../properties/properties-adapter-off.ui.h:1
++#: ../applet/main.c:284 ../properties/properties-adapter-off.ui.h:1
+ msgid "Turn On Bluetooth"
+ msgstr "ப்ளூடூத்துக்கு திரும்பு"
+ 
+-#: ../applet/main.c:283
++#: ../applet/main.c:285
+ msgid "Bluetooth: Off"
+ msgstr "ப்ளூடூத்: சக்திநீக்கி  உள்ளது"
+ 
+-#: ../applet/main.c:286
++#: ../applet/main.c:288
+ msgid "Turn Off Bluetooth"
+ msgstr "ப்ளூடூத்தை நிறுத்து"
+ 
+-#: ../applet/main.c:287
++#: ../applet/main.c:289
+ msgid "Bluetooth: On"
+ msgstr "Bluetooth: உயிரூட்டப்பட்டு  உள்ளது"
+ 
+-#: ../applet/main.c:399
++#: ../applet/main.c:294 ../applet/notify.c:148
++msgid "Bluetooth: Disabled"
++msgstr "Bluetooth: செயல்நீக்கப்பட்டது"
++
++#: ../applet/main.c:419
+ msgid "Disconnecting..."
+ msgstr "துண்டிக்கப்படுகிறது..."
+ 
+-#: ../applet/main.c:402 ../sendto/main.c:212
++#: ../applet/main.c:422 ../sendto/main.c:291
+ msgid "Connecting..."
+ msgstr "இணைக்கிறது..."
+ 
+-#: ../applet/main.c:405 ../applet/main.c:745
++#: ../applet/main.c:425 ../applet/main.c:766
+ msgid "Connected"
+ msgstr "இணைக்கப்பட்டது"
+ 
+-#: ../applet/main.c:408 ../applet/main.c:745
++#: ../applet/main.c:428 ../applet/main.c:766
+ msgid "Disconnected"
+ msgstr "துண்டிக்கப்பட்டது"
+ 
+-#: ../applet/main.c:763 ../applet/main.c:817 ../properties/adapter.c:446
++#: ../applet/main.c:784 ../applet/main.c:838 ../properties/adapter.c:442
+ msgid "Disconnect"
+ msgstr "துண்டிக்கவும்"
+ 
+-#: ../applet/main.c:763 ../applet/main.c:817
++#: ../applet/main.c:784 ../applet/main.c:838
+ msgid "Connect"
+ msgstr "இணைக்கவும்"
+ 
+-#: ../applet/main.c:776
++#: ../applet/main.c:797
+ msgid "Send files..."
+ msgstr "கோப்புகளை அனுப்பு..."
+ 
+-#: ../applet/main.c:786
++#: ../applet/main.c:807
+ msgid "Browse files..."
+ msgstr "கோப்புகளை உலாவி..."
+ 
+-#: ../applet/main.c:797
++#: ../applet/main.c:818
+ msgid "Open Keyboard Preferences..."
+ msgstr "விசைப்பலகை முன்னுரிமைகளை திறக்கவும்..."
+ 
+-#: ../applet/main.c:805
++#: ../applet/main.c:826
+ msgid "Open Mouse Preferences..."
+ msgstr "சுட்டி முன்னுரிமைகளை திறக்கவும்..."
+ 
+-#: ../applet/main.c:931
++#: ../applet/main.c:952
+ msgid "Debug"
+ msgstr "வழு நீக்கு "
+ 
+ #. Parse command-line options
+-#: ../applet/main.c:951
++#: ../applet/main.c:972
+ msgid "- Bluetooth applet"
+ msgstr "- ப்ளூடூத் குறுநிரல் "
+ 
+-#: ../applet/main.c:956
++#: ../applet/main.c:977
+ #, c-format
+ msgid ""
+ "%s\n"
+@@ -260,7 +260,7 @@
+ "%s\n"
+ "'%s --உதவிக்கு ஒரு முழு பட்டியலில் இருக்கும் கட்டளை வரி விருப்பங்களை இயக்குகிறது.\n"
+ 
+-#: ../applet/main.c:972
++#: ../applet/main.c:993
+ msgid "Bluetooth Applet"
+ msgstr "ப்ளூடூத் குறுநிரல்"
+ 
+@@ -268,10 +268,6 @@
+ msgid "Bluetooth: Enabled"
+ msgstr "Bluetooth: செயல்படுத்தப்பட்டது"
+ 
+-#: ../applet/notify.c:148
+-msgid "Bluetooth: Disabled"
+-msgstr "Bluetooth: செயல்நீக்கப்பட்டது"
+-
+ #: ../applet/agent.c:251 ../applet/agent.c:332
+ #, c-format
+ msgid "Device '%s' wants to pair with this computer"
+@@ -350,7 +346,7 @@
+ msgid "Browse files on device..."
+ msgstr "சாதனத்தில் கோப்புகளை உலாவு..."
+ 
+-#: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:405
++#: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:401
+ msgid "Devices"
+ msgstr "சாதனங்கள்"
+ 
+@@ -394,31 +390,31 @@
+ msgid "_Show input"
+ msgstr "உள்ளீட்டைக் காட்டு (_S)"
+ 
+-#: ../properties/main.c:115
++#: ../properties/main.c:132
+ msgid "A Bluetooth manager for the GNOME desktop"
+ msgstr "இந்த க்னோம்  பணிமேடைக்கு ஒரு ப்ளூடூத் மேலாளர் "
+ 
+-#: ../properties/main.c:118
++#: ../properties/main.c:135
+ msgid "translator-credits"
+-msgstr "IFELIX <ifelix@redhat.com>"
++msgstr "I. FELIX <ifelix@redhat.com>"
+ 
+-#: ../properties/main.c:120
++#: ../properties/main.c:137
+ msgid "GNOME Bluetooth home page"
+ msgstr "க்னோம் ப்ளூடூத் முகப்பு பக்கம்"
+ 
+-#: ../properties/main.c:145
++#: ../properties/main.c:162
+ msgid "Bluetooth Preferences"
+ msgstr "ப்ளூடூத் முன்னுரிமைகள்"
+ 
+-#: ../properties/main.c:157
++#: ../properties/main.c:177
+ msgid "_Show Bluetooth icon"
+ msgstr "ப்ளூடூத் சின்னத்தைக் காட்டு (_S)"
+ 
+-#: ../properties/main.c:307
++#: ../properties/main.c:246
+ msgid "Output a list of currently known devices"
+ msgstr "நடப்பில் தெரிந்த சாதனங்களின் வெளியேறும் பட்டியல்"
+ 
+-#: ../properties/main.c:344
++#: ../properties/main.c:283
+ msgid "Bluetooth Properties"
+ msgstr "ப்ளூடூத் பண்புகள்"
+ 
+@@ -432,27 +428,27 @@
+ msgstr "இந்த சாதனத்தை நீங்கள் நீக்கினால்,அடுத்த பயன்பாட்டிற்கு முன் நீங்கள் அதை அமைக்க வேண்டும்."
+ 
+ #. The discoverable checkbox
+-#: ../properties/adapter.c:352
++#: ../properties/adapter.c:348
+ msgid "Make computer _discoverable"
+ msgstr "கணினியை கண்டு பிடிக்கூடியதாக்கு (_d)"
+ 
+-#: ../properties/adapter.c:375
++#: ../properties/adapter.c:371
+ msgid "Friendly name"
+ msgstr "நட்பான பெயர்"
+ 
+-#: ../properties/adapter.c:437
++#: ../properties/adapter.c:433
+ msgid "Set up _new device..."
+-msgstr "(_n) புதிய சாதனத்தை அமைக்கவும்..."
++msgstr "புதிய சாதனத்தை அமைக்கவும் (_n)..."
+ 
+-#: ../properties/adapter.c:460
++#: ../properties/adapter.c:456
+ msgid "_Remove"
+ msgstr "நீக்கவும் (_R)"
+ 
+-#: ../properties/adapter.c:735
++#: ../properties/adapter.c:731
+ msgid "Bluetooth is disabled"
+ msgstr "ப்ளூடூத் செயல்படவில்லை"
+ 
+-#: ../properties/adapter.c:771
++#: ../properties/adapter.c:767
+ msgid "No Bluetooth adapters present"
+ msgstr "ப்ளூடூத் அடாப்டர்கள் இல்லை"
+ 
+@@ -577,47 +573,50 @@
+ msgid "Device search"
+ msgstr "சாதனத்தை தேடு"
+ 
+-#: ../wizard/wizard.ui.h:9
++#. This is a button to answer: Does the PIN matches the one on the device?
++#: ../wizard/wizard.ui.h:10
+ msgid "Does not match"
+ msgstr "பொருந்தவில்லை"
+ 
+-#: ../wizard/wizard.ui.h:10
++#: ../wizard/wizard.ui.h:11
+ msgid "Finishing New Device Setup"
+ msgstr "புதிய சாதன அமைவை முடிக்கிறது"
+ 
+-#: ../wizard/wizard.ui.h:11
++#. Translators: this is a PIN with a set value, such as 1111, or 0000
++#: ../wizard/wizard.ui.h:13
+ msgid "Fixed PIN"
+ msgstr "நிலையான பின் எண்"
+ 
+-#: ../wizard/wizard.ui.h:12
++#: ../wizard/wizard.ui.h:14
+ msgid "Introduction"
+ msgstr "அறிமுகம்"
+ 
+-#: ../wizard/wizard.ui.h:13
++#. This is a button to answer: Does the PIN matches the one on the device?
++#: ../wizard/wizard.ui.h:16
+ msgid "Matches"
+ msgstr "பொருத்தங்கள்"
+ 
+-#: ../wizard/wizard.ui.h:14
++#: ../wizard/wizard.ui.h:17
+ msgid "PIN Options"
+ msgstr "பின் எண் விருப்பங்கள்"
+ 
+-#: ../wizard/wizard.ui.h:15
++#: ../wizard/wizard.ui.h:18
+ msgid "PIN _options..."
+ msgstr "பின் எண் விருப்பங்கள் (_o)..."
+ 
+-#: ../wizard/wizard.ui.h:16
++#: ../wizard/wizard.ui.h:19
+ msgid "Select the additional services you want to use with your device:"
+ msgstr "உங்கள் சாதனத்துடன் பயன்படுத்த விரும்பும் கூடுதல் சேவைகளை தேர்ந்தெடுக்கவும்:"
+ 
+-#: ../wizard/wizard.ui.h:17
++#: ../wizard/wizard.ui.h:20
+ msgid "Select the device you want to setup"
+ msgstr "நீங்கள் அமைக்க விரும்பும் சாதனத்தை தேர்ந்தெடு"
+ 
+-#: ../wizard/wizard.ui.h:18
++#: ../wizard/wizard.ui.h:21
+ msgid "Setup Completed"
+ msgstr "அமைவு முடிந்தது"
+ 
+-#: ../wizard/wizard.ui.h:19
++#: ../wizard/wizard.ui.h:22
+ msgid ""
+ "The Bluetooth new device setup will walk you through the process of "
+ "configuring Bluetooth enabled devices for use with this computer."
+@@ -625,7 +624,7 @@
+ "புதிய ப்ளூடூத் சாதன வழிகாட்டி  ப்ளூடூத் செயல்படுத்தப்பட்ட சாதனங்களை இந்த கணினியில் பயன் "
+ "படுத்த  கட்டமைக்க உடன் அழைத்துச்செல்லும். "
+ 
+-#: ../wizard/wizard.ui.h:20
++#: ../wizard/wizard.ui.h:23
+ msgid ""
+ "The device will need to be within 10 meters of your computer, and be &#8220;"
+ "discoverable&#8221; (sometimes called &#8220;visible&#8221;). Check the "
+@@ -635,67 +634,68 @@
+ "&#8220; கண்டு பிடிக்கப்பட முடியவேண்டும்.&#8221; (சில சமயம்  &#8220; என அழைக்கப்படும். "
+ "காணக்கூடியது &#8221;). சந்தேகமிருந்தால் சாதனத்தின் கையேட்டை பார்க்கவும்.."
+ 
+-#: ../wizard/wizard.ui.h:21
++#: ../wizard/wizard.ui.h:24
+ msgid "Welcome to the Bluetooth new device setup"
+ msgstr "ப்ளூடூத் புதிய சாதன அமைவு வழிகாட்டிக்கு வரவேற்கிறது"
+ 
+-#: ../wizard/wizard.ui.h:22
++#: ../wizard/wizard.ui.h:25
+ msgid "_Automatic PIN selection"
+ msgstr "தானியக்கி பின் எண் தேர்ந்தெடுத்தல் (_A)"
+ 
+-#: ../wizard/wizard.ui.h:23
++#: ../wizard/wizard.ui.h:26
+ msgid "_Restart Setup"
+ msgstr "அமைவை மறுதுவக்கு (_R)"
+ 
+-#: ../sendto/main.c:98
++#: ../sendto/main.c:122
+ #, c-format
+ msgid "%'d second"
+ msgid_plural "%'d seconds"
+ msgstr[0] "%'d விநாடி"
+ msgstr[1] "%'d விநாடிகள்"
+ 
+-#: ../sendto/main.c:103 ../sendto/main.c:116
++#: ../sendto/main.c:127 ../sendto/main.c:140
+ #, c-format
+ msgid "%'d minute"
+ msgid_plural "%'d minutes"
+ msgstr[0] "%'d நிமிடம்"
+ msgstr[1] "%'d நிமிடங்கள்"
+ 
+-#: ../sendto/main.c:114
++#: ../sendto/main.c:138
+ #, c-format
+ msgid "%'d hour"
+ msgid_plural "%'d hours"
+ msgstr[0] "%'d மணி"
+ msgstr[1] "%'d மணிகள்"
+ 
+-#: ../sendto/main.c:124
++#: ../sendto/main.c:148
+ #, c-format
+ msgid "approximately %'d hour"
+ msgid_plural "approximately %'d hours"
+ msgstr[0] "தோராயமாக %'d மணி"
+ msgstr[1] "தோராயமாக %'d மணிகள்"
+ 
+-#: ../sendto/main.c:150
++#: ../sendto/main.c:229
+ msgid "File Transfer"
+ msgstr "கோப்பை மாற்று"
+ 
+-#: ../sendto/main.c:168
++#. translators: This is the heading for the progress dialogue
++#: ../sendto/main.c:250
+ msgid "Sending files via Bluetooth"
+ msgstr "ப்ளூடூத் வழியாக கோப்புகள் அனுப்பப்படுகிறது"
+ 
+-#: ../sendto/main.c:180
++#: ../sendto/main.c:262
+ msgid "From:"
+ msgstr "அனுப்புனர்:"
+ 
+-#: ../sendto/main.c:196
++#: ../sendto/main.c:275
+ msgid "To:"
+ msgstr "பெறுனர்:"
+ 
+-#: ../sendto/main.c:242
++#: ../sendto/main.c:320 ../sendto/main.c:336
+ msgid "An unknown error occurred"
+ msgstr "ஒரு தெரியாத பிழை ஏற்பட்டது"
+ 
+-#: ../sendto/main.c:252
++#: ../sendto/main.c:329
+ msgid ""
+ "Make sure that remote device is switched on and that it accepts Bluetooth "
+ "connections"
+@@ -703,46 +703,49 @@
+ "தொலை சாதனம் உயிரூட்டப்பட்டு  உள்ளதா மற்றும் அது ப்ளூடூத் இணைப்புகளை ஏற்றுக் கொள்ளுகிறதா "
+ "என பார்க்கவும்"
+ 
+-#: ../sendto/main.c:336
++#: ../sendto/main.c:427
+ #, c-format
+ msgid "Sending %s"
+ msgstr "%s ஐ அனுப்புகிறது"
+ 
+-#: ../sendto/main.c:343 ../sendto/main.c:405
++#: ../sendto/main.c:434 ../sendto/main.c:500
+ #, c-format
+ msgid "Sending file %d of %d"
+ msgstr "%d %d இல் கோப்பை அனுப்புகிறது"
+ 
+-#: ../sendto/main.c:401
++#: ../sendto/main.c:496
+ #, c-format
+ msgid "%d KB/s"
+ msgstr "%d KB/s"
+ 
+-#: ../sendto/main.c:403
++#: ../sendto/main.c:498
+ #, c-format
+ msgid "%d B/s"
+ msgstr "%d B/s"
+ 
+-#: ../sendto/main.c:497
++#: ../sendto/main.c:602
+ msgid "Select Device to Send To"
+ msgstr "அனுப்புவதற்கு சானத்தை தேர்ந்தெடுக்கவும்"
+ 
+-#: ../sendto/main.c:501
++#: ../sendto/main.c:606
+ msgid "Send _To"
+ msgstr "இதற்கு அனுப்பு (_T)"
+ 
+-#: ../sendto/main.c:542
++#: ../sendto/main.c:647
+ msgid "Choose files to send"
+ msgstr "கோப்புகளை அனுப்புவதற்கு தேர்ந்தெடு"
+ 
+-#: ../sendto/main.c:571
++#: ../sendto/main.c:676
+ msgid "Remote device to use"
+ msgstr "பயன்படுத்துவதற்கான தொலைச் சாதனம்"
+ 
+-#: ../sendto/main.c:573
++#: ../sendto/main.c:678
+ msgid "Remote device's name"
+ msgstr "தொலை சாதனங்களின் பெயர்"
+ 
++#~ msgid "Bluetooth: Unknown"
++#~ msgstr "ப்ளூடூத்: தெரியாத"
++
+ #~ msgid "Enter passkey"
+ #~ msgstr "கடவுச்சொல்லை உள்ளிடவும்"
+ 
+diff -urN a/po/zh_CN.po b/po/zh_CN.po
+--- a/po/zh_CN.po	2010-05-06 16:51:17.354029766 +0530
++++ b/po/zh_CN.po	2010-05-06 16:51:38.064158115 +0530
+@@ -1,153 +1,155 @@
++# translation of zh_CN.po to Wei Liu
+ # Chinese (China) translation for gnome-bluetooth.
+ # Copyright (c) 200-2009 Free Software Foundation, Inc.
+ # This file is distributed under the same license as the gnome-bluetooth package.
++#
+ # Aron Xu <aronxu@gnome.org>, 2007.
+ # fujianwzh <fujianwzh@gmail.com>, 2009.
+-#
++# Leah Liu <lliu@redhat.com>, 2010.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: bluez-gnome\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+-"bluetooth&component=general\n"
+-"POT-Creation-Date: 2009-07-26 15:28+0000\n"
+-"PO-Revision-Date: 2009-07-27 00:05+0800\n"
+-"Last-Translator: fujianwzh <fujianwzh@gmail.com>\n"
+-"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
++"Project-Id-Version: zh_CN\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 13:01+0530\n"
++"PO-Revision-Date: 2010-04-08 19:02+1000\n"
++"Last-Translator: Leah Liu <lliu@redhat.com>\n"
++"Language-Team: Wei Liu\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "Plural-Forms: nplurals=1; plural=0;\n"
++"X-Generator: KBabel 1.11.4\n"
+ 
+-#: ../lib/bluetooth-client.c:109
++#: ../lib/bluetooth-client.c:115
+ msgid "All types"
+ msgstr "所有类型"
+ 
+-#: ../lib/bluetooth-client.c:111
++#: ../lib/bluetooth-client.c:117
+ msgid "Phone"
+ msgstr "电话"
+ 
+-#: ../lib/bluetooth-client.c:113
++#: ../lib/bluetooth-client.c:119
+ msgid "Modem"
+ msgstr "调制解调器"
+ 
+-#: ../lib/bluetooth-client.c:115
++#: ../lib/bluetooth-client.c:121
+ msgid "Computer"
+ msgstr "计算机"
+ 
+-#: ../lib/bluetooth-client.c:117
++#: ../lib/bluetooth-client.c:123
+ msgid "Network"
+ msgstr "网络"
+ 
+ #. translators: a hands-free headset, a combination of a single speaker with a microphone
+-#: ../lib/bluetooth-client.c:120
++#: ../lib/bluetooth-client.c:126
+ msgid "Headset"
+ msgstr "耳机"
+ 
+-#: ../lib/bluetooth-client.c:122
++#: ../lib/bluetooth-client.c:128
+ msgid "Headphones"
+ msgstr "听筒"
+ 
+-#: ../lib/bluetooth-client.c:124
++#: ../lib/bluetooth-client.c:130
+ msgid "Audio device"
+ msgstr "音频设备"
+ 
+-#: ../lib/bluetooth-client.c:126
++#: ../lib/bluetooth-client.c:132
+ msgid "Keyboard"
+ msgstr "键盘"
+ 
+-#: ../lib/bluetooth-client.c:128
++#: ../lib/bluetooth-client.c:134
+ msgid "Mouse"
+ msgstr "鼠标"
+ 
+-#: ../lib/bluetooth-client.c:130
++#: ../lib/bluetooth-client.c:136
+ msgid "Camera"
+ msgstr "相机"
+ 
+-#: ../lib/bluetooth-client.c:132
++#: ../lib/bluetooth-client.c:138
+ msgid "Printer"
+ msgstr "打印机"
+ 
+-#: ../lib/bluetooth-client.c:134
++#: ../lib/bluetooth-client.c:140
+ msgid "Joypad"
+ msgstr "游戏手柄"
+ 
+-#: ../lib/bluetooth-client.c:136
++#: ../lib/bluetooth-client.c:142
+ msgid "Tablet"
+ msgstr "触摸板"
+ 
+-#: ../lib/bluetooth-client.c:138 ../lib/bluetooth-chooser.c:105
+-#: ../lib/bluetooth-chooser.c:139
++#: ../lib/bluetooth-client.c:144 ../lib/bluetooth-chooser.c:106
++#: ../lib/bluetooth-chooser.c:140
+ msgid "Unknown"
+ msgstr "未知"
+ 
+-#: ../lib/bluetooth-chooser-button.c:65 ../lib/bluetooth-chooser-button.c:360
++#: ../lib/bluetooth-chooser-button.c:65 ../lib/bluetooth-chooser-button.c:358
+ msgid "Click to select device..."
+ msgstr "点击选择设备..."
+ 
+-#: ../lib/bluetooth-chooser.c:95
++#: ../lib/bluetooth-chooser.c:96
+ msgid "All categories"
+ msgstr "所有类别"
+ 
+-#: ../lib/bluetooth-chooser.c:97
++#: ../lib/bluetooth-chooser.c:98
+ msgid "Paired"
+ msgstr "已配对"
+ 
+-#: ../lib/bluetooth-chooser.c:99
++#: ../lib/bluetooth-chooser.c:100
+ msgid "Trusted"
+ msgstr "信任的"
+ 
+-#: ../lib/bluetooth-chooser.c:101
++#: ../lib/bluetooth-chooser.c:102
+ msgid "Not paired or trusted"
+ msgstr "未配对或未信任"
+ 
+-#: ../lib/bluetooth-chooser.c:103
++#: ../lib/bluetooth-chooser.c:104
+ msgid "Paired or trusted"
+ msgstr "已配对或已信任"
+ 
+-#: ../lib/bluetooth-chooser.c:180
++#: ../lib/bluetooth-chooser.c:181
+ msgid "No adapters available"
+ msgstr "无可用的适配器"
+ 
+-#: ../lib/bluetooth-chooser.c:184 ../lib/bluetooth-chooser.c:813
++#: ../lib/bluetooth-chooser.c:185 ../lib/bluetooth-chooser.c:838
+ msgid "Searching for devices..."
+ msgstr "正在查找设备..."
+ 
+-#: ../lib/bluetooth-chooser.c:683
++#: ../lib/bluetooth-chooser.c:707
+ msgid "Device"
+ msgstr "设备"
+ 
+-#: ../lib/bluetooth-chooser.c:720
++#: ../lib/bluetooth-chooser.c:744
+ msgid "Type"
+ msgstr "类型"
+ 
+ #. The filters
+-#: ../lib/bluetooth-chooser.c:836
++#: ../lib/bluetooth-chooser.c:861
+ msgid "Show Only Bluetooth Devices With..."
+ msgstr "只显示带有此功能的蓝牙设备..."
+ 
+ #. The device category filter
+-#: ../lib/bluetooth-chooser.c:856
++#: ../lib/bluetooth-chooser.c:881
+ msgid "Device _category:"
+ msgstr "设备类别(_C)："
+ 
+-#: ../lib/bluetooth-chooser.c:871
++#: ../lib/bluetooth-chooser.c:896
+ msgid "Select the device category to filter above list"
+ msgstr "选择设备类别来过滤上面的列表"
+ 
+ #. The device type filter
+-#: ../lib/bluetooth-chooser.c:885
++#: ../lib/bluetooth-chooser.c:910
+ msgid "Device _type:"
+ msgstr "设备类型(_T)："
+ 
+-#: ../lib/bluetooth-chooser.c:906
++#: ../lib/bluetooth-chooser.c:931
+ msgid "Select the device type to filter above list"
+ msgstr "选择设备类型来过滤上面的列表"
+ 
+-#: ../lib/bluetooth-chooser.c:912
++#: ../lib/bluetooth-chooser.c:937
+ msgid "Input devices (mice, keyboards, ...)"
+ msgstr "输入设备(鼠标，键盘...)"
+ 
+-#: ../lib/bluetooth-chooser.c:916
++#: ../lib/bluetooth-chooser.c:941
+ msgid "Headphones, headsets and other audio devices"
+ msgstr "听筒，耳机或其它音频设备"
+ 
+@@ -174,76 +176,76 @@
+ msgid "Select device to browse"
+ msgstr "选择要浏览的设备"
+ 
+-#: ../applet/main.c:280
+-msgid "Bluetooth: Unknown"
+-msgstr "蓝牙：未知"
+-
+-#: ../applet/main.c:282 ../properties/properties-adapter-off.ui.h:1
++#: ../applet/main.c:284 ../properties/properties-adapter-off.ui.h:1
+ msgid "Turn On Bluetooth"
+ msgstr "打开蓝牙"
+ 
+-#: ../applet/main.c:283
++#: ../applet/main.c:285
+ msgid "Bluetooth: Off"
+ msgstr "蓝牙：关"
+ 
+-#: ../applet/main.c:286
++#: ../applet/main.c:288
+ msgid "Turn Off Bluetooth"
+ msgstr "关闭蓝牙"
+ 
+-#: ../applet/main.c:287
++#: ../applet/main.c:289
+ msgid "Bluetooth: On"
+ msgstr "蓝牙：开"
+ 
+-#: ../applet/main.c:399
++#: ../applet/main.c:294 ../applet/notify.c:148
++msgid "Bluetooth: Disabled"
++msgstr "蓝牙：已停用"
++
++#: ../applet/main.c:419
+ msgid "Disconnecting..."
+ msgstr "正在断开连接..."
+ 
+-#: ../applet/main.c:402 ../sendto/main.c:212
++#: ../applet/main.c:422 ../sendto/main.c:291
+ msgid "Connecting..."
+ msgstr "正在连接..."
+ 
+-#: ../applet/main.c:405 ../applet/main.c:745
++#: ../applet/main.c:425 ../applet/main.c:766
+ msgid "Connected"
+ msgstr "已连接"
+ 
+-#: ../applet/main.c:408 ../applet/main.c:745
++#: ../applet/main.c:428 ../applet/main.c:766
+ msgid "Disconnected"
+ msgstr "已断开"
+ 
+-#: ../applet/main.c:763 ../applet/main.c:817 ../properties/adapter.c:446
++#: ../applet/main.c:784 ../applet/main.c:838 ../properties/adapter.c:442
+ msgid "Disconnect"
+ msgstr "断开"
+ 
+-#: ../applet/main.c:763 ../applet/main.c:817
++#: ../applet/main.c:784 ../applet/main.c:838
+ msgid "Connect"
+ msgstr "连接"
+ 
+-#: ../applet/main.c:776
++#: ../applet/main.c:797
+ msgid "Send files..."
+ msgstr "发送文件..."
+ 
+-#: ../applet/main.c:786
++#: ../applet/main.c:807
+ msgid "Browse files..."
+ msgstr "浏览文件..."
+ 
+-#: ../applet/main.c:797
++#: ../applet/main.c:818
+ msgid "Open Keyboard Preferences..."
+ msgstr "打开键盘参数选择..."
+ 
+-#: ../applet/main.c:805
++#: ../applet/main.c:826
+ msgid "Open Mouse Preferences..."
+ msgstr "打开鼠标首选项..."
+ 
+-#: ../applet/main.c:931
++#: ../applet/main.c:952
+ msgid "Debug"
+ msgstr "调试"
+ 
+ #. Parse command-line options
+-#: ../applet/main.c:951
++#: ../applet/main.c:972
+ msgid "- Bluetooth applet"
+ msgstr "- 蓝牙小程序"
+ 
+-#: ../applet/main.c:956
++#: ../applet/main.c:977
+ #, c-format
+ msgid ""
+ "%s\n"
+@@ -252,7 +254,7 @@
+ "%s\n"
+ "运行 '%s --help' 查看命令行可用选项的完整列表。\n"
+ 
+-#: ../applet/main.c:972
++#: ../applet/main.c:993
+ msgid "Bluetooth Applet"
+ msgstr "蓝牙小程序"
+ 
+@@ -260,10 +262,6 @@
+ msgid "Bluetooth: Enabled"
+ msgstr "蓝牙：已启用"
+ 
+-#: ../applet/notify.c:148
+-msgid "Bluetooth: Disabled"
+-msgstr "蓝牙：已停用"
+-
+ #: ../applet/agent.c:251 ../applet/agent.c:332
+ #, c-format
+ msgid "Device '%s' wants to pair with this computer"
+@@ -342,13 +340,13 @@
+ msgid "Browse files on device..."
+ msgstr "浏览设备上的文件..."
+ 
+-#: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:405
++#: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:401
+ msgid "Devices"
+ msgstr "设备"
+ 
+ #: ../applet/popup-menu.ui.h:4
+-msgid "Preferences..."
+-msgstr "首选项..."
++msgid "Preferences"
++msgstr "首选项"
+ 
+ #: ../applet/popup-menu.ui.h:5
+ msgid "Quit"
+@@ -386,33 +384,33 @@
+ msgid "_Show input"
+ msgstr "显示输入(_S)"
+ 
+-#: ../properties/main.c:115
++#: ../properties/main.c:132
+ msgid "A Bluetooth manager for the GNOME desktop"
+ msgstr "适用于 GNOME 桌面的蓝牙管理器"
+ 
+-#: ../properties/main.c:118
++#: ../properties/main.c:135
+ msgid "translator-credits"
+ msgstr ""
+ "Aron Xu <aronxu@gnome.org>\n"
+ "fujianwzh <fujianwzh@gmail.com>"
+ 
+-#: ../properties/main.c:120
++#: ../properties/main.c:137
+ msgid "GNOME Bluetooth home page"
+ msgstr "GNOME 蓝牙主页"
+ 
+-#: ../properties/main.c:145
++#: ../properties/main.c:162
+ msgid "Bluetooth Preferences"
+ msgstr "蓝牙首选项"
+ 
+-#: ../properties/main.c:157
++#: ../properties/main.c:177
+ msgid "_Show Bluetooth icon"
+ msgstr "显示蓝牙图标(_S)"
+ 
+-#: ../properties/main.c:307
++#: ../properties/main.c:246
+ msgid "Output a list of currently known devices"
+ msgstr "输出当前已知设备的列表"
+ 
+-#: ../properties/main.c:344
++#: ../properties/main.c:283
+ msgid "Bluetooth Properties"
+ msgstr "蓝牙属性"
+ 
+@@ -422,32 +420,31 @@
+ msgstr "从设备列表中移除 '%s'？"
+ 
+ #: ../properties/adapter.c:181
+-msgid ""
+-"If you remove the device, you will have to set it up again before next use."
++msgid "If you remove the device, you will have to set it up again before next use."
+ msgstr "如果你移除此设备，下次使用时需要重新进行设置。"
+ 
+ #. The discoverable checkbox
+-#: ../properties/adapter.c:352
++#: ../properties/adapter.c:348
+ msgid "Make computer _discoverable"
+ msgstr "使计算机可被发现(_D)"
+ 
+-#: ../properties/adapter.c:375
++#: ../properties/adapter.c:371
+ msgid "Friendly name"
+ msgstr "友好名称"
+ 
+-#: ../properties/adapter.c:437
++#: ../properties/adapter.c:433
+ msgid "Set up _new device..."
+ msgstr "设置新设备(_N)..."
+ 
+-#: ../properties/adapter.c:460
++#: ../properties/adapter.c:456
+ msgid "_Remove"
+ msgstr "移除(_R)"
+ 
+-#: ../properties/adapter.c:735
++#: ../properties/adapter.c:731
+ msgid "Bluetooth is disabled"
+ msgstr "蓝牙已停用"
+ 
+-#: ../properties/adapter.c:771
++#: ../properties/adapter.c:767
+ msgid "No Bluetooth adapters present"
+ msgstr "未出现蓝牙适配器"
+ 
+@@ -518,8 +515,7 @@
+ 
+ #: ../wizard/main.c:550
+ #, c-format
+-msgid ""
+-"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
++msgid "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+ msgstr "请在 '%s' 输入如下 PIN 并按下键盘上的 “Enter” 键："
+ 
+ #: ../wizard/main.c:552
+@@ -573,635 +569,164 @@
+ msgid "Device search"
+ msgstr "设备搜索"
+ 
+-#: ../wizard/wizard.ui.h:9
++#. This is a button to answer: Does the PIN matches the one on the device?
++#: ../wizard/wizard.ui.h:10
+ msgid "Does not match"
+ msgstr "不匹配"
+ 
+-#: ../wizard/wizard.ui.h:10
++#: ../wizard/wizard.ui.h:11
+ msgid "Finishing New Device Setup"
+ msgstr "即将完成新设备设置"
+ 
+-#: ../wizard/wizard.ui.h:11
++#. Translators: this is a PIN with a set value, such as 1111, or 0000
++#: ../wizard/wizard.ui.h:13
+ msgid "Fixed PIN"
+ msgstr "固定的 PIN"
+ 
+-#: ../wizard/wizard.ui.h:12
++#: ../wizard/wizard.ui.h:14
+ msgid "Introduction"
+ msgstr "介绍"
+ 
+-#: ../wizard/wizard.ui.h:13
++#. This is a button to answer: Does the PIN matches the one on the device?
++#: ../wizard/wizard.ui.h:16
+ msgid "Matches"
+ msgstr "匹配"
+ 
+-#: ../wizard/wizard.ui.h:14
++#: ../wizard/wizard.ui.h:17
+ msgid "PIN Options"
+ msgstr "PIN 码选项"
+ 
+-#: ../wizard/wizard.ui.h:15
++#: ../wizard/wizard.ui.h:18
+ msgid "PIN _options..."
+ msgstr "PIN 选项(_O)..."
+ 
+-#: ../wizard/wizard.ui.h:16
++#: ../wizard/wizard.ui.h:19
+ msgid "Select the additional services you want to use with your device:"
+ msgstr "为你的设备选择要用的附加服务："
+ 
+-#: ../wizard/wizard.ui.h:17
++#: ../wizard/wizard.ui.h:20
+ msgid "Select the device you want to setup"
+ msgstr "选择你要设置的设备"
+ 
+-#: ../wizard/wizard.ui.h:18
++#: ../wizard/wizard.ui.h:21
+ msgid "Setup Completed"
+ msgstr "设置完成"
+ 
+-#: ../wizard/wizard.ui.h:19
++#: ../wizard/wizard.ui.h:22
+ msgid ""
+ "The Bluetooth new device setup will walk you through the process of "
+ "configuring Bluetooth enabled devices for use with this computer."
+ msgstr "本设备安装向导将帮助您在这台电脑上配置带有蓝牙功能的相关设备。"
+ 
+-#: ../wizard/wizard.ui.h:20
++#: ../wizard/wizard.ui.h:23
+ msgid ""
+ "The device will need to be within 10 meters of your computer, and be &#8220;"
+ "discoverable&#8221; (sometimes called &#8220;visible&#8221;). Check the "
+ "device's manual if in doubt."
+ msgstr ""
+-"该设备必须位于你的计算机10米范围内，并 &#8220;可被发现#8221;(有时称为 "
+-"&#8220;可见的&#8221;)。如有疑问请检查设备手册。"
++"该设备必须位于你的计算机10米范围内，并 &#8220;可被发现#8221;(有时称为 &#8220;"
++"可见的&#8221;)。如有疑问请检查设备手册。"
+ 
+-#: ../wizard/wizard.ui.h:21
++#: ../wizard/wizard.ui.h:24
+ msgid "Welcome to the Bluetooth new device setup"
+ msgstr "欢迎来到蓝牙新设备安装向导"
+ 
+-#: ../wizard/wizard.ui.h:22
++#: ../wizard/wizard.ui.h:25
+ msgid "_Automatic PIN selection"
+ msgstr "自动选择 PIN(_A)"
+ 
+-#: ../wizard/wizard.ui.h:23
++#: ../wizard/wizard.ui.h:26
+ msgid "_Restart Setup"
+ msgstr "重新启动安装程序(_R)"
+ 
+-#: ../sendto/main.c:98
++#: ../sendto/main.c:122
+ #, c-format
+ msgid "%'d second"
+ msgid_plural "%'d seconds"
+ msgstr[0] "%'d 秒"
+ 
+-#: ../sendto/main.c:103 ../sendto/main.c:116
++#: ../sendto/main.c:127 ../sendto/main.c:140
+ #, c-format
+ msgid "%'d minute"
+ msgid_plural "%'d minutes"
+ msgstr[0] "%'d 分钟"
+ 
+-#: ../sendto/main.c:114
++#: ../sendto/main.c:138
+ #, c-format
+ msgid "%'d hour"
+ msgid_plural "%'d hours"
+ msgstr[0] "%'d 小时"
+ 
+-#: ../sendto/main.c:124
++#: ../sendto/main.c:148
+ #, c-format
+ msgid "approximately %'d hour"
+ msgid_plural "approximately %'d hours"
+ msgstr[0] "大约 %'d 小时"
+ 
+-#: ../sendto/main.c:150
++#: ../sendto/main.c:229
+ msgid "File Transfer"
+ msgstr "文件传输"
+ 
+-#: ../sendto/main.c:168
++#. translators: This is the heading for the progress dialogue
++#: ../sendto/main.c:250
+ msgid "Sending files via Bluetooth"
+ msgstr "通过蓝牙传输文件"
+ 
+-#: ../sendto/main.c:180
++#: ../sendto/main.c:262
+ msgid "From:"
+ msgstr "从："
+ 
+-#: ../sendto/main.c:196
++#: ../sendto/main.c:275
+ msgid "To:"
+ msgstr "到："
+ 
+-#: ../sendto/main.c:242
++#: ../sendto/main.c:320 ../sendto/main.c:336
+ msgid "An unknown error occurred"
+ msgstr "发生了未知错误"
+ 
+-#: ../sendto/main.c:252
++#: ../sendto/main.c:329
+ msgid ""
+ "Make sure that remote device is switched on and that it accepts Bluetooth "
+ "connections"
+ msgstr "请确认远程设备已开启并接受蓝牙连接"
+ 
+-#: ../sendto/main.c:336
++#: ../sendto/main.c:427
+ #, c-format
+ msgid "Sending %s"
+ msgstr "发送 %s"
+ 
+-#: ../sendto/main.c:343 ../sendto/main.c:405
++#: ../sendto/main.c:434 ../sendto/main.c:500
+ #, c-format
+ msgid "Sending file %d of %d"
+ msgstr "发送中 %d / %d"
+ 
+-#: ../sendto/main.c:401
++#: ../sendto/main.c:496
+ #, c-format
+ msgid "%d KB/s"
+ msgstr "%d KB/s"
+ 
+-#: ../sendto/main.c:403
++#: ../sendto/main.c:498
+ #, c-format
+ msgid "%d B/s"
+ msgstr "%d B/s"
+ 
+-#: ../sendto/main.c:497
++#: ../sendto/main.c:602
+ msgid "Select Device to Send To"
+ msgstr "选择要发送到的设备"
+ 
+-#: ../sendto/main.c:501
++#: ../sendto/main.c:606
+ msgid "Send _To"
+ msgstr "发送到(_T)"
+ 
+-#: ../sendto/main.c:542
++#: ../sendto/main.c:647
+ msgid "Choose files to send"
+ msgstr "选择要发送的文件"
+ 
+-#: ../sendto/main.c:571
++#: ../sendto/main.c:676
+ msgid "Remote device to use"
+ msgstr "使用远程设备"
+ 
+-#: ../sendto/main.c:573
++#: ../sendto/main.c:678
+ msgid "Remote device's name"
+ msgstr "远程设备名称"
+ 
+-#~ msgid "Bonded"
+-#~ msgstr "已配对"
+-
+-#~ msgid "Recognized Bluetooth Devices"
+-#~ msgstr "识别蓝牙设备"
+-
+-#~ msgid "S_earch"
+-#~ msgstr "搜索(_E)"
+-
+-#~ msgid "Rescan Bluetooth devices"
+-#~ msgstr "重新扫描蓝牙设备"
+-
+-#~ msgid "Created bonding with %s"
+-#~ msgstr "已和 %s 完成绑定"
+-
+-#~ msgid "Removed bonding with %s"
+-#~ msgstr "与 %s 的绑定已移除"
+-
+-#~ msgid "Device has been switched off"
+-#~ msgstr "设备已断开"
+-
+-#~ msgid "Device has been made non-discoverable"
+-#~ msgstr "设备被设置为不可发现"
+-
+-#~ msgid "Device has been made connectable"
+-#~ msgstr "设备被设置为可连接"
+-
+-#~ msgid "Device has been made limited discoverable"
+-#~ msgstr "设备被设置为限制性可发现"
+-
+-#~ msgid "Device has been switched into pairing mode"
+-#~ msgstr "设备转入配对模式"
+-
+-#~ msgid "Couldn't execute command: %s\n"
+-#~ msgstr "无法执行命令：%s\n"
+-
+-#~ msgid "Browse Devices"
+-#~ msgstr "浏览设备"
+-
+-#~ msgid "Confirm pairing"
+-#~ msgstr "确认配对"
+-
+-#~ msgid "Receiving of incoming files is enabled"
+-#~ msgstr "已经启用传入文件接收"
+-
+-#~ msgid "Public file sharing has been activated"
+-#~ msgstr "公共文件共享已经被激活"
+-
+-#~ msgid "Services"
+-#~ msgstr "服务"
+-
+-#~ msgid "Authorization requests"
+-#~ msgstr "认证请求"
+-
+-#~ msgid "Automatically authorize incoming requests"
+-#~ msgstr "自动批准认证请求"
+-
+-#~ msgid "Hardware database"
+-#~ msgstr "硬件数据库"
+-
+-#~ msgid "Select class of device automatically"
+-#~ msgstr "自动选择设备种类"
+-
+-#~ msgid "Available services"
+-#~ msgstr "可用服务"
+-
+-#~ msgid "never"
+-#~ msgstr "永不"
+-
+-#~ msgid "1 minute"
+-#~ msgstr "1分钟"
+-
+-#~ msgid "%g minutes"
+-#~ msgstr "%g 分钟"
+-
+-#~ msgid "Set _Trusted"
+-#~ msgstr "设定信任的(_T)"
+-
+-#~ msgid "Mode of operation"
+-#~ msgstr "操作模式"
+-
+-#~ msgid "Other devices can connect"
+-#~ msgstr "可被其他设备连接"
+-
+-#~ msgid "Visible and connectable for other devices"
+-#~ msgstr "可被其他设备发现和连接"
+-
+-#~ msgid "Limited discoverable and connectable"
+-#~ msgstr "限制性可发现并可连接"
+-
+-#~ msgid "Make adapter invisible after:"
+-#~ msgstr "使适配器可见："
+-
+-#~ msgid "Adapter name"
+-#~ msgstr "适配器名称"
+-
+-#~ msgid "Class of device"
+-#~ msgstr "设备种类"
+-
+-#~ msgid "Unspecified"
+-#~ msgstr "未指定"
+-
+-#~ msgid "Desktop workstation"
+-#~ msgstr "桌面型工作站"
+-
+-#~ msgid "Laptop computer"
+-#~ msgstr "笔记本电脑"
+-
+-#~ msgid "Server-class computer"
+-#~ msgstr "服务器级计算机"
+-
+-#~ msgid "Handheld device"
+-#~ msgstr "掌上电脑设备"
+-
+-#~ msgid "Bonded devices"
+-#~ msgstr "结合的设备"
+-
+-#~ msgid "Remove device entry from service?"
+-#~ msgstr "从服务中删除设备条目？"
+-
+-#~ msgid ""
+-#~ "If you delete the device entry, you can't use it with this service "
+-#~ "anymore."
+-#~ msgstr "如果删除了设备条目，您就不能够在这个服务中使用它了。"
+-
+-#~ msgid "Connecting to device"
+-#~ msgstr "正在连接到设备"
+-
+-#~ msgid "Show all devices"
+-#~ msgstr "显示所有设备"
+-
+-#~ msgid "Create Device"
+-#~ msgstr "创建设备"
+-
+-#~ msgid "Input devices"
+-#~ msgstr "输入设备"
+-
+-#~ msgid "Network devices"
+-#~ msgstr "网络设备"
+-
+-#~ msgid "If HAL should be used for automatic preferences settings"
+-#~ msgstr "如果存在 hal ,应当被用作自动首选项设置"
+-
+-#~ msgid ""
+-#~ "If HAL should be used to automatically adjust settings like class of "
+-#~ "device etc."
+-#~ msgstr "如果 hal 存在，应当被用作自动调节设置例如设备的类别"
+-
+-#~ msgid "If authorization requests should be automatically granted"
+-#~ msgstr "认证请求是否被自动批准"
+-
+-#~ msgid ""
+-#~ "If authorization requests should be granted all the time without asking "
+-#~ "the user for confirmation."
+-#~ msgstr "认证请求是否永远不需要确认就被自动批准"
+-
+-#~ msgid "Select destination device"
+-#~ msgstr "选择目标设备"
+-
+-#~ msgid ""
+-#~ "Switched device into\n"
+-#~ "%s mode"
+-#~ msgstr ""
+-#~ "切换设备到\n"
+-#~ "%s 模式"
+-
+-#~ msgid "Connecting to system bus failed: %s\n"
+-#~ msgstr "连接系统总线失败:%s\n"
+-
+-#~ msgid "<b>Notification area</b>"
+-#~ msgstr "<b>通知区域</b>"
+-
+-#~ msgid "Bluetooth preferences"
+-#~ msgstr "蓝牙首选项"
+-
+-#~ msgid "<b>Mode of operation</b>"
+-#~ msgstr "<b>操作模式</b>"
+-
+-#~ msgid ""
+-#~ "\n"
+-#~ "<b>Adapter name</b>"
+-#~ msgstr ""
+-#~ "\n"
+-#~ "<b>适配器名称</b>"
+-
+-#~ msgid ""
+-#~ "\n"
+-#~ "<b>Class of device</b>"
+-#~ msgstr ""
+-#~ "\n"
+-#~ "<b>适配器类型</b>"
+-
+-#~ msgid "Sort by RSSI"
+-#~ msgstr "通过RSSI筛选"
+-
+-#~ msgid "Icon view"
+-#~ msgstr "图标视图"
+-
+-#~ msgid "Periodic discovery"
+-#~ msgstr "周期性探测"
+-
+-#~ msgid "Stop discovery"
+-#~ msgstr "停止探测"
+-
+-#~ msgid ""
+-#~ "\n"
+-#~ "Enter passkey for authentication:"
+-#~ msgstr ""
+-#~ "\n"
+-#~ "请输入验证密码："
+-
+-#~ msgid ""
+-#~ "\n"
+-#~ "Confirm value for authentication:"
+-#~ msgstr ""
+-#~ "\n"
+-#~ "确认身份验证的值"
+-
+-#~ msgid ""
+-#~ "Pairing request for %s\n"
+-#~ "\n"
+-#~ "Click to open passkey entry dialog"
+-#~ msgstr "正在为 %s 进行配对"
+-
+-#~ msgid ""
+-#~ "Pairing request for %s\n"
+-#~ "\n"
+-#~ "Click to open confirmation dialog"
+-#~ msgstr ""
+-#~ "正在为 %s 进行配对\n"
+-#~ "\n"
+-#~ "点击此处以打开确认窗口"
+-
+-#~ msgid "Select type of device you wanna setup"
+-#~ msgstr "选择你想要设置的设备类型"
+-
+-#~ msgid "Select device you wanna setup"
+-#~ msgstr "选择你想设置的设备"
+-
+-#~ msgid "Bluetooth device wizard"
+-#~ msgstr "蓝牙设备向导"
+-
+-#~ msgid "Search"
+-#~ msgstr "查找"
+-
+-#~ msgid "Network service"
+-#~ msgstr "网络服务"
+-
+-#~ msgid "Input service"
+-#~ msgstr "输入服务"
+-
+-#~ msgid "Audio service"
+-#~ msgstr "音频服务"
+-
+-#~ msgid "Serial service"
+-#~ msgstr "串行服务"
+-
+-#~ msgid "%d:%02d:%02d Remaining"
+-#~ msgstr "%d:%02d:%02d 剩余"
+-
+-#~ msgid "%d:%02d Remaining"
+-#~ msgstr "%d:%02d 剩余"
+-
+-#~ msgid "Select Device"
+-#~ msgstr "选择设备"
+-
+-#~ msgid "Authentication request"
+-#~ msgstr "身份验证请求"
+-
+-#~ msgid "Pairing request for device:"
+-#~ msgstr "设备配对请求："
+-
+-#~ msgid "Enter passkey for authentication:"
+-#~ msgstr "输入认证通行码："
+-
+-#~ msgid "Confirmation request"
+-#~ msgstr "请求确认"
+-
+-#~ msgid "Confirm value for authentication:"
+-#~ msgstr "确认认证值："
+-
+-#~ msgid "Authorization request"
+-#~ msgstr "认证请求"
+-
+-#~ msgid "Authorization request for device:"
+-#~ msgstr "设备认证请求："
+-
+-#~ msgid "Enter passkey"
+-#~ msgstr "输入密码"
+-
+-#~ msgid "General"
+-#~ msgstr "常规"
+-
+-#~ msgid "File transfer"
+-#~ msgstr "文件传输"
+-
+-#~ msgid "Receive files from remote devices"
+-#~ msgstr "从远程设备接收文件"
+-
+-#~ msgid "Share files from public folder"
+-#~ msgstr "从公共文件夹共享文件"
+-
+-#~ msgid "Notification area"
+-#~ msgstr "通知区域"
+-
+-#~ msgid "Never display icon"
+-#~ msgstr "从不显示图标"
+-
+-#~ msgid "Only display when adapter present"
+-#~ msgstr "当适配器存在时显示"
+-
+-#~ msgid "Always display icon"
+-#~ msgstr "总是显示图标"
+-
+-#~ msgid "Adapter"
+-#~ msgstr "适配器"
+-
+-#~ msgid ""
+-#~ "Display options for the notification icon. Valid options are \"never\", "
+-#~ "\"present\" and \"always\"."
+-#~ msgstr "通知图标的显示选项。可用的选项是“从不”，“当前”和“一直”。"
+-
+-#~ msgid "If Bluetooth file sharing is enabled"
+-#~ msgstr "当蓝牙文件共享被启用时"
+-
+-#~ msgid "If receiving of remote files via Bluetooth is enabled"
+-#~ msgstr "通过蓝牙接收远程文件是否被启用"
+-
+-#~ msgid ""
+-#~ "If the service for receiving remote files via Bluetooth is enabled or not."
+-#~ msgstr "通过蓝牙接收远程文件的服务是否被启用。"
+-
+-#~ msgid "If the service for sharing files via Bluetooth is enabled or not."
+-#~ msgstr "通过蓝牙共享远程文件的服务是否被启用。"
+-
+-#~ msgid "Mobile phone"
+-#~ msgstr "移动电话"
+-
+-#~ msgid "Any device"
+-#~ msgstr "任何设备"
+-
+-#~ msgid "Summary"
+-#~ msgstr "汇总"
+-
+-#~ msgid "Saving of protocol trace failed"
+-#~ msgstr "保存协议信息失败"
+-
+-#~ msgid "Loading Trace"
+-#~ msgstr "加载跟踪"
+-
+-#~ msgid "Live Import"
+-#~ msgstr "实时导入"
+-
+-#~ msgid "Protocol Trace"
+-#~ msgstr "协议追踪"
+-
+-#~ msgid "Unsaved"
+-#~ msgstr "未保存"
+-
+-#~ msgid "Can't live import from"
+-#~ msgstr "无法从以下来源实时导入："
+-
+-#~ msgid "_File"
+-#~ msgstr "文件(_F)"
+-
+-#~ msgid "Open _Recent"
+-#~ msgstr "打开最近文件(_R)"
+-
+-#~ msgid "_Edit"
+-#~ msgstr "编辑(_E)"
+-
+-#~ msgid "_View"
+-#~ msgstr "视图(_V)"
+-
+-#~ msgid "_Full Screen"
+-#~ msgstr "全屏(_F)"
+-
+-#~ msgid "_Tools"
+-#~ msgstr "工具(_T)"
+-
+-#~ msgid "_Debug Packet List"
+-#~ msgstr "调试包列表(_D)"
+-
+-#~ msgid "_Help"
+-#~ msgstr "帮助 (_H)"
+-
+-#~ msgid "Bluetooth protocol analyzer"
+-#~ msgstr "蓝牙协议分析器"
+-
+-#~ msgid "All Files"
+-#~ msgstr "全部文件"
+-
+-#~ msgid "Supported Files"
+-#~ msgstr "支持的文件"
+-
+-#~ msgid "Frontline BTSnoop Files"
+-#~ msgstr "Frontline BTSnoop 文件"
+-
+-#~ msgid "Apple Packet Logger Files"
+-#~ msgstr "Apple Packet Logger 文件"
+-
+-#~ msgid "By Extension"
+-#~ msgstr "按扩展名"
+-
+-#~ msgid "Frontline BTSnoop Format"
+-#~ msgstr "Frontline BTSnoop 格式"
+-
+-#~ msgid "Apple Packet Logger Format"
+-#~ msgstr "Apple Packet Logger 格式"
+-
+-#~ msgid "Select File _Type"
+-#~ msgstr "选择文件类型 (_T)"
+-
+-#~ msgid "File Type"
+-#~ msgstr "文件类型"
+-
+-#~ msgid "Extensions"
+-#~ msgstr "扩展"
+-
+-#~ msgid "Save File"
+-#~ msgstr "保存文件"
+-
+-#~ msgid "Open File"
+-#~ msgstr "打开文件"
+-
+-#~ msgid "Local connection"
+-#~ msgstr "本地连接"
+-
+-#~ msgid "Remote connection"
+-#~ msgstr "远程连接"
+-
+-#~ msgid "Open Import"
+-#~ msgstr "打开导入"
+-
+-#~ msgid "Save the protocol trace before closing?"
+-#~ msgstr "在关闭前保存协议追踪？"
+-
+-#~ msgid "If you don't save, all information will be permanently lost."
+-#~ msgstr "如果不保存，所有的信息都将永远丢失。"
+-
+-#~ msgid "Close _without Saving"
+-#~ msgstr "不保存而关闭(_W)"
+-
+-#~ msgid "There is"
+-#~ msgstr "有"
+-
+-#~ msgid "There are"
+-#~ msgstr "有"
+-
+-#~ msgid "unsaved protocol trace."
+-#~ msgstr "未保存协议路径。"
+-
+-#~ msgid "unsaved protocol traces."
+-#~ msgstr "未保存协议路径。"
+-
+-#~ msgid "If you quit now, all information will be lost."
+-#~ msgstr "如果现在退出，所有信息将会丢失。"
+-
+-#~ msgid "_Discard Changes"
+-#~ msgstr "丢弃更改(_D)"
+-
+-#~ msgid "Packet"
+-#~ msgstr "包"
+-
+-#~ msgid "Timestamp"
+-#~ msgstr "时间戳"
+-
+-#~ msgid "Analyze Bluetooth traces"
+-#~ msgstr "分析蓝牙追踪"
+-
+-#~ msgid "Apple Packet Logger File"
+-#~ msgstr "Apple Packet Logger 文件"
+-
+-#~ msgid "Frontline BTSnoop File"
+-#~ msgstr "Frontline BTSnoop 文件"
